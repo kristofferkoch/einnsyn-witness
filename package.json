@@ -1,0 +1,13 @@
+{
+  "name": "einnsyn-witness",
+  "version": "1.0.0",
+  "description": "A tamper-evident witness for Norway's offentlig journal (public case journal) via eInnsyn",
+  "type": "module",
+  "scripts": {
+    "witness": "node witness.mjs"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  }
+}

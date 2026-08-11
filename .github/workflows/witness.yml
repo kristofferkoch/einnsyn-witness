@@ -1,0 +1,35 @@
+name: Daily witness
+
+on:
+  schedule:
+    # 06:00 UTC daily
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Run witness
+        run: node witness.mjs
+
+      - name: Commit snapshot
+        run: |
+          git config user.name "einnsyn-witness"
+          git config user.email "actions@github.com"
+          git add snapshots/ state.json CHANGELOG.md
+          if git diff --cached --quiet; then
+            echo "No changes since last snapshot."
+          else
+            git commit -m "witness: $(date -u +%Y-%m-%d) daily snapshot"
+            git push
+          fi
