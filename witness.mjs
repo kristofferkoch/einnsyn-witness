@@ -21,6 +21,7 @@ const ROOT = __dirname;
 const SNAPSHOTS_DIR = join(ROOT, "snapshots");
 const STATE_FILE = join(ROOT, "state.json");
 const CHANGELOG_FILE = join(ROOT, "CHANGELOG.md");
+const LAST_RUN_FILE = join(ROOT, "last_run.txt");
 
 // --- Configuration ---
 const TARGET_NAME = process.env.WITNESS_TARGET_NAME || "Datatilsynet";
@@ -213,6 +214,23 @@ function appendChangelog(date, summary, diff) {
   writeFileSync(CHANGELOG_FILE, header + entry);
 }
 
+// --- Heartbeat (so the schedule self-witnesses) ---
+// Written on every run, success or failure. The timestamp always changes, so
+// this file guarantees a commit per run: a skipped cron shows up as a MISSING
+// commit (a missing row) rather than silence indistinguishable from "no changes".
+function writeHeartbeat(status, fields = {}) {
+  const ts = new Date().toISOString();
+  const lines = [`${status} ${ts}`];
+  if (fields.target) lines.push(`target: ${fields.target}`);
+  if (fields.hitCount !== undefined) lines.push(`hitCount: ${fields.hitCount}`);
+  if (fields.snapshotSize !== undefined) lines.push(`snapshotSize: ${fields.snapshotSize}`);
+  if (fields.idSetHash) lines.push(`id-set-hash: ${fields.idSetHash}`);
+  if (fields.contentHash) lines.push(`content-hash: ${fields.contentHash}`);
+  if (fields.diff) lines.push(`diff: ${fields.diff}`);
+  if (fields.error) lines.push(`error: ${fields.error}`);
+  writeFileSync(LAST_RUN_FILE, lines.join("\n") + "\n");
+}
+
 // --- Main ---
 async function main() {
   console.log(`[einnsyn-witness] Fetching latest ${SNAPSHOT_SIZE} posts for ${TARGET_NAME}...`);
@@ -286,9 +304,21 @@ async function main() {
   } else {
     console.log("[einnsyn-witness] First run — baseline established.");
   }
+
+  writeHeartbeat("ok", {
+    target: TARGET_NAME,
+    hitCount: data.hitCount,
+    snapshotSize: posts.length,
+    idSetHash: iHash,
+    contentHash: cHash,
+    diff: diff
+      ? `+${diff.added.length} added, -${diff.removed.length} removed, ~${diff.changed.length} changed`
+      : "baseline",
+  });
 }
 
 main().catch((err) => {
   console.error("[einnsyn-witness] FATAL:", err.message);
+  writeHeartbeat("error", { error: err.message });
   process.exit(1);
 });

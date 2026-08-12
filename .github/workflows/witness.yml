@@ -23,13 +23,20 @@ jobs:
         run: node witness.mjs
 
       - name: Commit snapshot
+        if: always()
         run: |
           git config user.name "einnsyn-witness"
           git config user.email "actions@github.com"
           git add snapshots/ state.json CHANGELOG.md
+          # last_run.txt always changes (new timestamp) → guarantees a commit per
+          # run, so a skipped cron is a MISSING commit, not silence. Guard the add
+          # in case node never wrote it (e.g. setup failure).
+          [ -f last_run.txt ] && git add last_run.txt
+          STATUS="no-heartbeat"
+          [ -f last_run.txt ] && STATUS="$(head -1 last_run.txt)"
           if git diff --cached --quiet; then
-            echo "No changes since last snapshot."
+            echo "Nothing to commit."
           else
-            git commit -m "witness: $(date -u +%Y-%m-%d) daily snapshot"
+            git commit -m "witness: $(date -u +%Y-%m-%d) ${STATUS}"
             git push
           fi
