@@ -1,4 +1,4 @@
-ok 2026-08-17T06:30:53.813Z
+ok 2026-08-18T06:22:42.359Z
 target: Datatilsynet
 hitCount: 196034
 snapshotSize: 50
