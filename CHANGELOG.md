@@ -329,22 +329,6 @@ _No removals or edits detected. Only normal additions._
 
 _No removals or edits detected. Only normal additions._
 
-## 2026-08-19
-
-**Target:** Datatilsynet  
-**Total hits (agency):** 196034  
-**Snapshot size:** 50  
-**id-set-hash:** `5f697a6f55375b38872500f3d3388966a785ef575844ca7abe83d295753656c4`  
-**content-hash:** `cdc2c65d5bb46bc981277b1c17d70b9465415944a67a4b0f6a5265810be6ea21`
-
-### Diff from previous snapshot (2026-08-18)
-
-- **Added:** 0 post(s)
-- **Removed:** 0 post(s)
-- **Changed:** 0 post(s)
-
-_No removals or edits detected. Only normal additions._
-
 ## 2026-08-20
 
 **Target:** Datatilsynet  
@@ -353,7 +337,7 @@ _No removals or edits detected. Only normal additions._
 **id-set-hash:** `c5d8c5ff07a93fc22b5e56f20075ccc502f43f1c56d68df8542e71d4d64dc437`  
 **content-hash:** `44b2c8ac0511b5d2f2bcf3fc4b711b95db828b24237954818a9db66d75a5ce87`
 
-### Diff from previous snapshot (2026-08-19)
+### Diff from previous snapshot (2026-08-18)
 
 - **Added:** 50 post(s)
 - **Removed:** 50 post(s)
