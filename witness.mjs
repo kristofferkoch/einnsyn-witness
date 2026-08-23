@@ -18,8 +18,12 @@ import { fileURLToPath } from "node:url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = __dirname;
-const SNAPSHOTS_DIR = join(ROOT, "snapshots");
-const STATE_FILE = join(ROOT, "state.json");
+// Per-host subtree: set WITNESS_HOST_TAG=vm (etc.) so two hosts never write the same
+// snapshot path. Untagged runs keep the legacy flat layout (back-compat with the other host).
+const HOST_TAG = process.env.WITNESS_HOST_TAG || "";
+const HOST_SUFFIX = HOST_TAG ? `-${HOST_TAG}` : "";
+const SNAPSHOTS_DIR = join(ROOT, "snapshots", HOST_TAG);
+const STATE_FILE = join(ROOT, `state${HOST_SUFFIX}.json`);
 const CHANGELOG_FILE = join(ROOT, "CHANGELOG.md");
 const LAST_RUN_FILE = join(ROOT, "last_run.txt");
 

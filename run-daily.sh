@@ -4,6 +4,7 @@
 # operator remembering. Logs to last_run.txt are written by witness.mjs itself.
 set -euo pipefail
 cd "$(dirname "$0")"
+export WITNESS_HOST_TAG="${WITNESS_HOST_TAG:-vm}"   # per-host snapshot subtree; overrides for manual runs
 OUT="$(node witness.mjs 2>&1)" || { echo "$OUT" >&2; exit 1; }
 echo "$OUT" >&2
 if echo "$OUT" | grep -q "Snapshot saved"; then
