@@ -15,6 +15,7 @@ import { createHash } from "node:crypto";
 import { writeFileSync, readFileSync, existsSync, mkdirSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
+import { postJson } from "./lib/http.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = __dirname;
@@ -59,22 +60,23 @@ async function fetchJournalPosts() {
     sort: { fieldName: "moetedato", order: "DESC" },
   };
 
-  const resp = await fetch(API_URL, {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      "User-Agent": USER_AGENT,
-      Accept: "application/json",
-    },
-    body: JSON.stringify(body),
-  });
-
-  if (!resp.ok) {
-    throw new Error(`eInnsyn API returned HTTP ${resp.status}: ${await resp.text()}`);
+  // IPv4-pinned POST with retries (lib/http.mjs): global fetch latches onto
+  // einnsyn.no's unreachable AAAA route and fails as ETIMEDOUT without
+  // falling back (2026-08-24 Digdir incident).
+  try {
+    return await postJson(API_URL, {
+      body,
+      headers: {
+        "Content-Type": "application/json",
+        "User-Agent": USER_AGENT,
+        Accept: "application/json",
+      },
+      timeoutMs: 90000,
+      retries: 3,
+    });
+  } catch (err) {
+    throw new Error(`eInnsyn API fetch failed: ${err.message}`);
   }
-
-  const data = await resp.json();
-  return data;
 }
 
 // --- Extract a stable, minimal field set from each hit ---
@@ -297,7 +299,8 @@ async function main() {
   };
   saveState(newState);
 
-  console.log(`[einnsyn-witness] Snapshot saved: snapshots/${date}.json`);
+  const snapshotPath = join(SNAPSHOTS_DIR, `${date}.json`);
+  console.log(`[einnsyn-witness] Snapshot saved: ${snapshotPath}`);
   console.log(`[einnsyn-witness] hitCount=${data.hitCount} snapshotSize=${posts.length}`);
   console.log(`[einnsyn-witness] id-set-hash=${iHash.slice(0, 16)}`);
   console.log(`[einnsyn-witness] content-hash=${cHash.slice(0, 16)}`);

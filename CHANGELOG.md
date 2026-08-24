@@ -509,3 +509,58 @@ _...and 30 more._
 
 _...and 40 more._
 
+
+## 2026-08-24
+
+**Target:** Datatilsynet  
+**Total hits (agency):** 196034  
+**Snapshot size:** 50  
+**id-set-hash:** `c5d8c5ff07a93fc22b5e56f20075ccc502f43f1c56d68df8542e71d4d64dc437`  
+**content-hash:** `44b2c8ac0511b5d2f2bcf3fc4b711b95db828b24237954818a9db66d75a5ce87`
+
+### Diff from previous snapshot (2026-08-23)
+
+- **Added:** 50 post(s)
+- **Removed:** 50 post(s)
+- **Changed:** 0 post(s)
+
+#### Removed (⚠️ potential silent removals)
+
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2026--718--2--2026` — Overhalla kommune - tilsyn 2026 [2026/718]
+- `http://data.einnsyn.no/noark4/Saksmappe--974761467--170--2026` — Finanstilsynet - Arbeidsgruppe om utredning av finansforetaks taushetsplikt for forskningsformål [2026/170]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2026--879--1--2026` — Talkmore - Krav om innsyn i personopplysninger mm [2026/879]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2026--883--1--2026` — Melding om avvik - RANA KOMMUNE STAB OPPVEKST OG KULTUR [2026/883]
+- `http://data.einnsyn.no/noark4/Saksmappe--974761467--879--2026` — Talkmore - Krav om innsyn i personopplysninger mm [2026/879]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2026--884--1--2026` — Melding om avvik - Privatmegleren AS [2026/884]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2026--770--2--2026` — Melding om avvik - MOBITECH AS [2026/770]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2026--910--1--2026` — Melding om avvik - KAMPEN SKOLE [2026/910]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2023--4772--12--2026` — Poznan University of Medical Sciences - Krav om sletting av personopplysninger på internett [2023/4772]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2024--914--26--2026` — Gjensidige forsikring - Krav om innsyn i personopplysninger [2024/914]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2022--5055--44--2026` — Kongsberg kommune - Klage på reklame og salg/deling av personopplysninger i digitale læremidler til tredjeparter - PVN-sak 26/380 [2022/5055]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2025--6161--4--2026` — Melding om avvik - ALNA BYDELSADMINISTRASJON [2025/6161]
+- `http://data.einnsyn.no/noark4/Saksmappe--974761467--892--2026` — Nettsiden b2bhint.com - Krav om sletting av personopplysninger [2026/892]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2026--902--2--2026` — TikTok - Krav om sletting av brukerkonto [2026/902]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2026--882--1--2026` — Melding om avvik - HELSEPLATTFORMEN AS [2026/882]
+- `http://data.einnsyn.no/noark4/Saksmappe--974761467--586--2026` — Sør-Fron kommune - tilsyn 2026 [2026/586]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2026--904--1--2026` — Amili Collection AS - Klage på behandling av personopplysninger [2026/904]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2026--368--2--2026` — Melding om avvik - Sandnes kommune [2026/368]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2026--890--1--2026` — Klage på kameraovervåking i nabolag [2026/890]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2026--912--1--2026` — Melding om avvik - OSLO KOMMUNE, ØKONOMI- OG FORVALTNINGSETATEN [2026/912]
+
+_...and 30 more._
+
+#### Added (new posts — normal)
+
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2024--1792--2--2024` — Melding om avvik - SPAREBANK 1 NORD-NORGE [2024/1792]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2017--790--13--2019` — VIS Supervision Coordination Group - 2017 / 2018 [2017/790]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2024--1701--1--2024` — Orgservice AS - Klage på behandling av personopplysninger på tjenesten Likeperson.no [2024/1701]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2016--1802--10--2016` — Ansettelsessak - Studentmedarbeider til juridisk veiledningstjeneste [2016/1802]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2015--133--3--2015` — IDE House of Brands AS - Klage på kredittvurdering uten saklig behov [2015/133]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2018--2450--6--2019` — Galåen Naturbarnehage - Publisering av bilder mm på Internett [2018/2450]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2024--1850--1--2024` — Melding om avvik - CYVIZ AS [2024/1850]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2024--1839--3--2024` — Melding om avvik - BERGEN KOMMUNE [2024/1839]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2024--1773--2--2024` — Melding om avvik - BERGEN KOMMUNE [2024/1773]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2013--1039--4--2014` — NTNU -* - Søknad / konsesjon til å behandle helseopplysninger - forskning - 36627 - En observasjonsstudie av pasienter med tykk- og endetarmskreft i Midt-Norge [2013/1039]
+
+_...and 40 more._
+

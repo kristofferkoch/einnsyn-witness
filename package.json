@@ -4,7 +4,8 @@
   "description": "A tamper-evident witness for Norway's offentlig journal (public case journal) via eInnsyn",
   "type": "module",
   "scripts": {
-    "witness": "node witness.mjs"
+    "witness": "node witness.mjs",
+    "test": "node --test test/"
   },
   "license": "MIT",
   "engines": {
