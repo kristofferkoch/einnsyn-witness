@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "witness": "node witness.mjs",
-    "test": "node --test test/"
+    "test": "node --test test/*.test.mjs"
   },
   "license": "MIT",
   "engines": {
