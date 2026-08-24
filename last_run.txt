@@ -1,7 +1,2 @@
-ok 2026-08-23T06:21:14.288Z
-target: Datatilsynet
-hitCount: 196034
-snapshotSize: 50
-id-set-hash: c5d8c5ff07a93fc22b5e56f20075ccc502f43f1c56d68df8542e71d4d64dc437
-content-hash: 44b2c8ac0511b5d2f2bcf3fc4b711b95db828b24237954818a9db66d75a5ce87
-diff: +50 added, -50 removed, ~0 changed
+error 2026-08-24T06:33:41.198Z
+error: fetch failed
