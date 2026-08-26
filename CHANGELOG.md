@@ -608,7 +608,6 @@ _No removals or edits detected. Only normal additions._
 **content-hash:** `44b2c8ac0511b5d2f2bcf3fc4b711b95db828b24237954818a9db66d75a5ce87`
 
 ### Diff from previous snapshot (2026-08-23)
-### Diff from previous snapshot (2026-08-25)
 
 - **Added:** 0 post(s)
 - **Removed:** 0 post(s)
@@ -616,3 +615,75 @@ _No removals or edits detected. Only normal additions._
 
 _No removals or edits detected. Only normal additions._
 
+## 2026-08-26 (09:40:16Z, vm host — vacuous diff: same-day rerun pre-fix, self-compared)
+
+**Target:** Datatilsynet  
+**Total hits (agency):** 196418  
+**Snapshot size:** 50  
+**id-set-hash:** `5f697a6f55375b38872500f3d3388966a785ef575844ca7abe83d295753656c4`  
+**content-hash:** `cdc2c65d5bb46bc981277b1c17d70b9465415944a67a4b0f6a5265810be6ea21`
+
+### Diff from previous snapshot (2026-08-26)
+
+- **Added:** 0 post(s)
+- **Removed:** 0 post(s)
+- **Changed:** 0 post(s)
+
+_No removals or edits detected. Only normal additions._
+
+### Cumulative coverage (run 2026-08-26T09:40:16.073Z)
+
+- **Union:** 100 known id(s) — bootstrapped from this host's snapshot history
+- **New this run:** 0
+- **Returned:** 0
+- **Exits from window:** 0 — 0 rotated (new posts pushed them out), 0 suspect (nothing new arrived)
+- **Suspects standing:** 0
+- **hitCount:** 196418 — monotone ok (≥ max seen)
+
+## 2026-08-26 (09:41:13Z, vm host — post-fix: diff vs the 06:17Z cron window)
+
+**Target:** Datatilsynet  
+**Total hits (agency):** 196418  
+**Snapshot size:** 50  
+**id-set-hash:** `5f697a6f55375b38872500f3d3388966a785ef575844ca7abe83d295753656c4`  
+**content-hash:** `cdc2c65d5bb46bc981277b1c17d70b9465415944a67a4b0f6a5265810be6ea21`
+
+### Diff from previous snapshot (2026-08-26, 06:17Z cron run)
+
+- **Added:** 50 post(s)
+- **Removed:** 50 post(s)
+- **Changed:** 0 post(s)
+
+The 50-post window turned over COMPLETELY in ~3.4h: the 06:17Z window (old-era
+posts, 2013-2025) and this one (2026-era) are disjoint. All 50 additions are
+RETURNING ids (seen in earlier snapshots; newIds=0), so the exits are flagged
+suspect by the rotation rule's blind spot: the window can rotate via returning
+ids, not only new ones. hitCount flat at 196418 throughout — nothing global
+was deleted; this is source-side sort/window instability, the failure mode a
+published count hides and the union makes visible.
+
+#### Removed (⚠️ flagged suspect — see caveat above; likely window oscillation)
+
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2024--1792--2--2024` — Melding om avvik - SPAREBANK 1 NORD-NORGE [2024/1792]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2017--790--13--2019` — VIS Supervision Coordination Group - 2017 / 2018 [2017/790]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2024--1701--1--2024` — Orgservice AS - Klage på behandling av personopplysninger på tjenesten Likeperson.no [2024/1701]
+
+_...and 46 more. Full lists in snapshots/vm/2026-08-26.json vs the 06:17Z version in git history (4d22412^)._
+
+#### Added (returning 2026-era posts)
+
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2026--718--2--2026` — Overhalla kommune - tilsyn 2026 [2026/718]
+- `http://data.einnsyn.no/noark4/Saksmappe--974761467--170--2026` — Finanstilsynet - Arbeidsgruppe om utredning av finansforetaks taushetsplikt for forskningsformål [2026/170]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2026--879--1--2026` — Talkmore - Krav om innsyn i personopplysninger mm [2026/879]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2026--883--1--2026` — Melding om avvik - RANA KOMMUNE STAB OPPVEKST OG KULTUR [2026/883]
+
+_...and 46 more (all 2026-era returnees to the window; full list in the snapshot)._
+
+### Cumulative coverage (run 2026-08-26T09:41:13.603Z)
+
+- **Union:** 100 known id(s) — bootstrapped from this host's snapshot history
+- **New this run:** 0
+- **Returned:** 50 (full list in state-vm.json knownIds, lastSeen 2026-08-26)
+- **Exits from window:** 50 — 0 rotated (new posts pushed them out), 50 suspect (nothing new arrived)
+- **Suspects standing:** 50 — the 06:17Z old-era window ⚠️ drift = a known id that never returns; caveat: rotation-via-returning-ids reads as suspect under window oscillation, next runs decide
+- **hitCount:** 196418 — monotone ok (≥ max seen)

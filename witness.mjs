@@ -12,10 +12,11 @@
 // and how to verify.
 
 import { createHash } from "node:crypto";
-import { writeFileSync, readFileSync, existsSync, mkdirSync } from "node:fs";
+import { writeFileSync, readFileSync, existsSync, mkdirSync, readdirSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { postJson } from "./lib/http.mjs";
+import { updateKnownIds, checkHitCounts, bootstrapKnownIds } from "./lib/coverage.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = __dirname;
@@ -115,11 +116,27 @@ function contentHash(posts) {
 }
 
 // --- State management ---
+// knownIds / suspects / hitCountHistory are the cumulative-coverage layer
+// (lib/coverage.mjs); older state files predate them and migrate on load.
+function emptyState() {
+  return {
+    firstRun: null,
+    lastRun: null,
+    lastIdSetHash: null,
+    lastContentHash: null,
+    totalSnapshots: 0,
+    knownIds: {},
+    suspects: [],
+    hitCountHistory: [],
+  };
+}
+
 function loadState() {
   if (!existsSync(STATE_FILE)) {
-    return { firstRun: null, lastRun: null, lastIdSetHash: null, lastContentHash: null, totalSnapshots: 0 };
+    return emptyState();
   }
-  return JSON.parse(readFileSync(STATE_FILE, "utf-8"));
+  const state = JSON.parse(readFileSync(STATE_FILE, "utf-8"));
+  return { ...emptyState(), ...state };
 }
 
 function saveState(state) {
@@ -161,8 +178,35 @@ function diffSnapshots(prev, curr) {
   return { added, removed, changed };
 }
 
+// --- Cumulative coverage ---
+// Bootstrap the id-union from this host's snapshot history (first coverage
+// run on a state file that predates it), then fold today's window in.
+function computeCoverage(state, prev, posts, date, hitCount) {
+  let known = state.knownIds;
+  let bootstrapped = false;
+  if (!known || Object.keys(known).length === 0) {
+    const files = existsSync(SNAPSHOTS_DIR)
+      ? readdirSync(SNAPSHOTS_DIR)
+          .filter((f) => f.endsWith(".json"))
+          .sort()
+          .map((f) => JSON.parse(readFileSync(join(SNAPSHOTS_DIR, f), "utf-8")))
+      : [];
+    known = bootstrapKnownIds(files);
+    bootstrapped = true;
+  }
+  const coverage = updateKnownIds({
+    known,
+    suspects: state.suspects || [],
+    prevWindow: prev ? prev.posts.map((p) => p.id) : [],
+    currWindow: posts.map((p) => p.id),
+    runDate: date,
+  });
+  const hit = checkHitCounts(state.hitCountHistory || [], hitCount);
+  return { coverage, hit, bootstrapped };
+}
+
 // --- Changelog ---
-function appendChangelog(date, summary, diff) {
+function appendChangelog(date, summary, diff, cov) {
   const header = existsSync(CHANGELOG_FILE)
     ? readFileSync(CHANGELOG_FILE, "utf-8")
     : "# Changelog — einnsyn-witness\n\nHuman-readable diff log. Each entry is one daily snapshot run.\n\n";
@@ -215,6 +259,27 @@ function appendChangelog(date, summary, diff) {
     if (diff.removed.length === 0 && diff.changed.length === 0) {
       entry += `_No removals or edits detected. Only normal additions._\n`;
     }
+  }
+
+  if (cov) {
+    const c = cov.coverage;
+    entry += `### Cumulative coverage (run ${summary.timestamp})\n\n`;
+    entry += `- **Union:** ${Object.keys(c.known).length} known id(s) — ${
+      cov.bootstrapped ? "bootstrapped from this host's snapshot history" : "carried in state"
+    }\n`;
+    entry += `- **New this run:** ${c.newIds.length}\n`;
+    entry += `- **Returned:** ${c.returnedIds.length}${
+      c.returnedIds.length ? ` (${c.returnedIds.join(", ")})` : ""
+    }\n`;
+    const rotated = c.exits.filter((e) => e.rotatedOut).length;
+    const exitsSuspect = c.exits.filter((e) => !e.rotatedOut).map((e) => e.id);
+    entry += `- **Exits from window:** ${c.exits.length} — ${rotated} rotated (new posts pushed them out), ${exitsSuspect.length} suspect (nothing new arrived)\n`;
+    entry += `- **Suspects standing:** ${c.suspects.length}${
+      c.suspects.length ? ` — ${c.suspects.join(", ")} ⚠️ drift = a known id that never returns` : ""
+    }\n`;
+    entry += `- **hitCount:** ${summary.hitCount} — ${
+      cov.hit.ok ? "monotone ok (≥ max seen)" : `DROP ⚠️ ${JSON.stringify(cov.hit.drops)}`
+    }\n\n`;
   }
 
   writeFileSync(CHANGELOG_FILE, header + entry);
@@ -272,11 +337,16 @@ async function main() {
   };
 
   if (!existsSync(SNAPSHOTS_DIR)) mkdirSync(SNAPSHOTS_DIR, { recursive: true });
-  writeFileSync(join(SNAPSHOTS_DIR, `${date}.json`), JSON.stringify(snapshot, null, 2) + "\n");
 
+  // Load prev state/snapshot BEFORE writing today's file: on a same-day
+  // rerun, the diff and the coverage bootstrap must see the earlier run's
+  // window, not this run's output overwriting it.
   const state = loadState();
   const prev = loadPreviousSnapshot();
   const diff = prev ? diffSnapshots(prev, snapshot) : null;
+  const cov = computeCoverage(state, prev, posts, date, data.hitCount);
+
+  writeFileSync(join(SNAPSHOTS_DIR, `${date}.json`), JSON.stringify(snapshot, null, 2) + "\n");
 
   const summary = {
     target: TARGET_NAME,
@@ -285,9 +355,10 @@ async function main() {
     idSetHash: iHash,
     contentHash: cHash,
     previousDate: prev?.date,
+    timestamp,
   };
 
-  appendChangelog(date, summary, diff);
+  appendChangelog(date, summary, diff, cov);
 
   const newState = {
     firstRun: state.firstRun || timestamp,
@@ -296,6 +367,9 @@ async function main() {
     lastIdSetHash: iHash,
     lastContentHash: cHash,
     totalSnapshots: (state.totalSnapshots || 0) + 1,
+    knownIds: cov.coverage.known,
+    suspects: cov.coverage.suspects,
+    hitCountHistory: [...(state.hitCountHistory || []), { date, hitCount: data.hitCount }],
   };
   saveState(newState);
 
@@ -311,6 +385,8 @@ async function main() {
   } else {
     console.log("[einnsyn-witness] First run — baseline established.");
   }
+  const covLine = `union ${Object.keys(cov.coverage.known).length}, +new ${cov.coverage.newIds.length}, returned ${cov.coverage.returnedIds.length}, exits ${cov.coverage.exits.length} (suspect ${cov.coverage.suspects.length} standing), hitCount ${cov.hit.ok ? "monotone ok" : "DROP"}`;
+  console.log(`[einnsyn-witness] Coverage: ${covLine}`);
 
   writeHeartbeat("ok", {
     target: TARGET_NAME,
@@ -321,6 +397,7 @@ async function main() {
     diff: diff
       ? `+${diff.added.length} added, -${diff.removed.length} removed, ~${diff.changed.length} changed`
       : "baseline",
+    coverage: covLine,
   });
 }
 
