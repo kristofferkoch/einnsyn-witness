@@ -1,2 +1,7 @@
-error 2026-08-25T06:25:33.516Z
-error: eInnsyn API fetch failed: timeout after 90000ms
+ok 2026-08-26T06:27:02.395Z
+target: Datatilsynet
+hitCount: 196418
+snapshotSize: 50
+id-set-hash: c5d8c5ff07a93fc22b5e56f20075ccc502f43f1c56d68df8542e71d4d64dc437
+content-hash: 44b2c8ac0511b5d2f2bcf3fc4b711b95db828b24237954818a9db66d75a5ce87
+diff: +0 added, -0 removed, ~0 changed
