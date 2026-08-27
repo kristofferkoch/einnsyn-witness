@@ -768,3 +768,68 @@ snapshots/ and must reproduce it (run-daily.sh gates on it before folding);
 preimage). Design notes adopted from OpenWitness c23879 (#2379): bind the
 covered set into the digest a reader recomputes; firstSeen answers reach, not
 disappearance.
+
+## 2026-08-27
+
+**Target:** Datatilsynet  
+**Total hits (agency):** 197081  
+**Snapshot size:** 50  
+**id-set-hash:** `5f697a6f55375b38872500f3d3388966a785ef575844ca7abe83d295753656c4`  
+**content-hash:** `cdc2c65d5bb46bc981277b1c17d70b9465415944a67a4b0f6a5265810be6ea21`
+
+### Diff from previous snapshot (2026-08-26)
+
+- **Added:** 50 post(s)
+- **Removed:** 50 post(s)
+- **Changed:** 0 post(s)
+
+#### Removed (⚠️ potential silent removals)
+
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2024--1792--2--2024` — Melding om avvik - SPAREBANK 1 NORD-NORGE [2024/1792]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2017--790--13--2019` — VIS Supervision Coordination Group - 2017 / 2018 [2017/790]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2024--1701--1--2024` — Orgservice AS - Klage på behandling av personopplysninger på tjenesten Likeperson.no [2024/1701]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2016--1802--10--2016` — Ansettelsessak - Studentmedarbeider til juridisk veiledningstjeneste [2016/1802]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2015--133--3--2015` — IDE House of Brands AS - Klage på kredittvurdering uten saklig behov [2015/133]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2018--2450--6--2019` — Galåen Naturbarnehage - Publisering av bilder mm på Internett [2018/2450]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2024--1850--1--2024` — Melding om avvik - CYVIZ AS [2024/1850]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2024--1839--3--2024` — Melding om avvik - BERGEN KOMMUNE [2024/1839]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2024--1773--2--2024` — Melding om avvik - BERGEN KOMMUNE [2024/1773]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2013--1039--4--2014` — NTNU -* - Søknad / konsesjon til å behandle helseopplysninger - forskning - 36627 - En observasjonsstudie av pasienter med tykk- og endetarmskreft i Midt-Norge [2013/1039]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2024--1775--1--2024` — Melding om avvik - ATB AS [2024/1775]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2017--586--10--2017` — Akershus universitetssykehus - Follo DPS - H* - Søknad / konsesjon til å behandle personopplysninger - Forskning - Samhandlingsprosjekt innenfor psykisk helse - Tidlig intervensjon i Follo [2017/586]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2024--1780--3--2024` — Melding om avvik - AGDER KOLLEKTIVTRAFIKK AS [2024/1780]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2024--1785--2--2024` — Melding om avvik - MASFJORDEN KOMMUNE [2024/1785]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2022--49--9--2022` — Elkjøp - Stedlig tilsyn [2022/49]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2023--3752--15--2024` — Politidirektoratet - Krav om innsyn i kriminaletterretningsregisteret og lydlogg [2023/3752]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2022--3682--1--2022` — Melding om avvik - DNB BANK ASA [2022/3682]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2022--3441--2--2022` — Melding om avvik - POLITIDIREKTORATET [2022/3441]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2023--2777--4--2023` — NVE – Norges vassdrags-og energidirektorat - Veiledningsmøte [2023/2777]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2022--2886--3--2022` — Elklagenemnda - Krav om innsyn i personopplysninger [2022/2886]
+
+_...and 30 more._
+
+#### Added (new posts — normal)
+
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2026--718--2--2026` — Overhalla kommune - tilsyn 2026 [2026/718]
+- `http://data.einnsyn.no/noark4/Saksmappe--974761467--170--2026` — Finanstilsynet - Arbeidsgruppe om utredning av finansforetaks taushetsplikt for forskningsformål [2026/170]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2026--879--1--2026` — Talkmore - Krav om innsyn i personopplysninger mm [2026/879]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2026--883--1--2026` — Melding om avvik - RANA KOMMUNE STAB OPPVEKST OG KULTUR [2026/883]
+- `http://data.einnsyn.no/noark4/Saksmappe--974761467--879--2026` — Talkmore - Krav om innsyn i personopplysninger mm [2026/879]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2026--884--1--2026` — Melding om avvik - Privatmegleren AS [2026/884]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2026--770--2--2026` — Melding om avvik - MOBITECH AS [2026/770]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2026--910--1--2026` — Melding om avvik - KAMPEN SKOLE [2026/910]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2023--4772--12--2026` — Poznan University of Medical Sciences - Krav om sletting av personopplysninger på internett [2023/4772]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2024--914--26--2026` — Gjensidige forsikring - Krav om innsyn i personopplysninger [2024/914]
+
+_...and 40 more._
+
+### Cumulative coverage (run 2026-08-27T17:00:16.920Z)
+
+- **Union:** 101 known id(s) — bootstrapped from this host's snapshot history
+- **New this run:** 0
+- **Returned:** 50 (http://data.einnsyn.no/noark4/Journalpost--974761467--2016--1515--14--2016, http://data.einnsyn.no/noark4/Journalpost--974761467--2021--3339--8--2021, http://data.einnsyn.no/noark4/Journalpost--974761467--2021--3348--16--2023, http://data.einnsyn.no/noark4/Journalpost--974761467--2022--5055--44--2026, http://data.einnsyn.no/noark4/Journalpost--974761467--2023--3763--18--2026, http://data.einnsyn.no/noark4/Journalpost--974761467--2023--4772--10--2026, http://data.einnsyn.no/noark4/Journalpost--974761467--2023--4772--12--2026, http://data.einnsyn.no/noark4/Journalpost--974761467--2024--914--26--2026, http://data.einnsyn.no/noark4/Journalpost--974761467--2025--6040--7--2026, http://data.einnsyn.no/noark4/Journalpost--974761467--2025--6161--4--2026, http://data.einnsyn.no/noark4/Journalpost--974761467--2025--6222--2--2025, http://data.einnsyn.no/noark4/Journalpost--974761467--2025--6647--3--2026, http://data.einnsyn.no/noark4/Journalpost--974761467--2026--354--4--2026, http://data.einnsyn.no/noark4/Journalpost--974761467--2026--368--2--2026, http://data.einnsyn.no/noark4/Journalpost--974761467--2026--419--1--2026, http://data.einnsyn.no/noark4/Journalpost--974761467--2026--494--1--2026, http://data.einnsyn.no/noark4/Journalpost--974761467--2026--508--1--2026, http://data.einnsyn.no/noark4/Journalpost--974761467--2026--519--1--2026, http://data.einnsyn.no/noark4/Journalpost--974761467--2026--523--1--2026, http://data.einnsyn.no/noark4/Journalpost--974761467--2026--534--1--2026, http://data.einnsyn.no/noark4/Journalpost--974761467--2026--553--1--2026, http://data.einnsyn.no/noark4/Journalpost--974761467--2026--569--1--2026, http://data.einnsyn.no/noark4/Journalpost--974761467--2026--573--1--2026, http://data.einnsyn.no/noark4/Journalpost--974761467--2026--575--1--2026, http://data.einnsyn.no/noark4/Journalpost--974761467--2026--578--1--2026, http://data.einnsyn.no/noark4/Journalpost--974761467--2026--581--1--2026, http://data.einnsyn.no/noark4/Journalpost--974761467--2026--592--1--2026, http://data.einnsyn.no/noark4/Journalpost--974761467--2026--598--1--2026, http://data.einnsyn.no/noark4/Journalpost--974761467--2026--599--1--2026, http://data.einnsyn.no/noark4/Journalpost--974761467--2026--639--1--2026, http://data.einnsyn.no/noark4/Journalpost--974761467--2026--718--2--2026, http://data.einnsyn.no/noark4/Journalpost--974761467--2026--770--2--2026, http://data.einnsyn.no/noark4/Journalpost--974761467--2026--879--1--2026, http://data.einnsyn.no/noark4/Journalpost--974761467--2026--882--1--2026, http://data.einnsyn.no/noark4/Journalpost--974761467--2026--883--1--2026, http://data.einnsyn.no/noark4/Journalpost--974761467--2026--884--1--2026, http://data.einnsyn.no/noark4/Journalpost--974761467--2026--890--1--2026, http://data.einnsyn.no/noark4/Journalpost--974761467--2026--902--2--2026, http://data.einnsyn.no/noark4/Journalpost--974761467--2026--904--1--2026, http://data.einnsyn.no/noark4/Journalpost--974761467--2026--910--1--2026, http://data.einnsyn.no/noark4/Journalpost--974761467--2026--912--1--2026, http://data.einnsyn.no/noark4/Saksmappe--974761467--170--2026, http://data.einnsyn.no/noark4/Saksmappe--974761467--586--2026, http://data.einnsyn.no/noark4/Saksmappe--974761467--6040--2025, http://data.einnsyn.no/noark4/Saksmappe--974761467--6827--2025, http://data.einnsyn.no/noark4/Saksmappe--974761467--6901--2025, http://data.einnsyn.no/noark4/Saksmappe--974761467--796--2026, http://data.einnsyn.no/noark4/Saksmappe--974761467--879--2026, http://data.einnsyn.no/noark4/Saksmappe--974761467--892--2026, http://data.einnsyn.no/noark4/Saksmappe--974761467--909--2026)
+- **Exits from window:** 50 — 0 rotated (new posts pushed them out), 50 unclassified-exit (nothing new arrived)
+- **Suspects standing:** 0 — suspect classification SUSPENDED (window oscillation observed: a known id returned after absence, so the window is not a stable head; exits stay recorded, hitCount remains the global check)
+- **Union root:** `c8a9f480538f95324ef1eed10615cf9a10782f50583502c7ad4c5c16cca3005f` — sha256 over sorted `id|firstSeen|lastSeen` lines of the union; replaying snapshots/ must reproduce it (witness.mjs --verify-union)
+- **hitCount:** 197081 — monotone ok (≥ max seen)
+
