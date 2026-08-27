@@ -14,6 +14,7 @@ import {
   updateKnownIds,
   checkHitCounts,
   bootstrapKnownIds,
+  unionRoot,
 } from "../lib/coverage.mjs";
 
 const day = (n) => `2026-08-${String(n).padStart(2, "0")}`;
@@ -89,6 +90,124 @@ test("suspects persist across runs while absent", () => {
     runDate: day(4),
   });
   assert.deepEqual(r.suspects, ["a"]); // still gone, still suspect
+});
+
+// --- Oscillation (2026-08-27 specimen: two disjoint 50-post eras alternate) ---
+//
+// The 08-26→08-27 pair proved the window is not a stable head: the old era
+// RETURNED in full while the new era left, union pinned, hitCount flat. Under
+// that regime a per-id "suspect exit" is unclassifiable from the window alone
+// (rotation-by-oscillation reads identical to a no-arrival exit), so one return
+// anywhere suspends suspect classification permanently; exits stay recorded.
+
+test("a return anywhere clears all standing suspects and flags oscillation", () => {
+  // era-A ids: a (returns this run), z (stays absent). Era-B: b (exits now).
+  const r = updateKnownIds({
+    known: {
+      a: { firstSeen: day(1), lastSeen: day(1), absentRuns: 1 },
+      z: { firstSeen: day(1), lastSeen: day(1), absentRuns: 1 },
+      b: { firstSeen: day(2), lastSeen: day(2), absentRuns: 0 },
+    },
+    suspects: ["z", "a"],
+    prevWindow: ["b"],
+    currWindow: ["a"], // old-era id returns; b exits with zero NEW arrivals
+    runDate: day(3),
+  });
+  assert.ok(r.returnedIds.includes("a"));
+  assert.equal(r.oscillationObserved, true);
+  assert.deepEqual(r.suspects, []); // z's suspicion is vacuous now, cleared
+  assert.ok(r.exits.some((e) => e.id === "b" && e.rotatedOut === false));
+});
+
+test("once oscillation is observed, exits are recorded but never flagged", () => {
+  const r = updateKnownIds({
+    known: { b: { firstSeen: day(2), lastSeen: day(2), absentRuns: 0 } },
+    suspects: [],
+    oscillationObserved: true,
+    prevWindow: ["b"],
+    currWindow: [], // everything leaves, nothing arrives
+    runDate: day(3),
+  });
+  assert.equal(r.oscillationObserved, true);
+  assert.deepEqual(r.suspects, []);
+  assert.equal(r.known.b.absentRuns, 1);
+});
+
+test("absentRuns counts consecutive absences and resets on presence", () => {
+  const r1 = updateKnownIds({
+    known: { a: { firstSeen: day(1), lastSeen: day(1), absentRuns: 0 } },
+    suspects: [],
+    prevWindow: ["a"],
+    currWindow: [],
+    runDate: day(2),
+  });
+  assert.equal(r1.known.a.absentRuns, 1);
+  const r2 = updateKnownIds({
+    known: r1.known,
+    suspects: r1.suspects,
+    prevWindow: [],
+    currWindow: [],
+    runDate: day(3),
+  });
+  assert.equal(r2.known.a.absentRuns, 2); // streak accrues
+  const r3 = updateKnownIds({
+    known: r2.known,
+    suspects: r2.suspects,
+    prevWindow: [],
+    currWindow: ["a"],
+    runDate: day(4),
+  });
+  assert.equal(r3.known.a.absentRuns, 0); // reset on return
+  assert.equal(r3.known.a.lastSeen, day(4));
+});
+
+test("legacy known entries without absentRuns migrate as 0", () => {
+  const r = updateKnownIds({
+    known: { a: { firstSeen: day(1), lastSeen: day(2) } }, // pre-migration shape
+    suspects: [],
+    prevWindow: ["a"],
+    currWindow: [],
+    runDate: day(3),
+  });
+  assert.equal(r.known.a.absentRuns, 1); // 0 assumed, then incremented
+});
+
+// --- unionRoot (bind the covered set into a recomputable digest) ---
+//
+// A union published BESIDE the snapshots must still be trusted; a union whose
+// digest a reader can recompute from the snapshots does not. unionRoot is
+// sha256 over sorted `id|firstSeen|lastSeen` lines — replaying the snapshots
+// (bootstrapKnownIds + folds) must reproduce it exactly.
+
+test("unionRoot is deterministic and binds every field of every entry", () => {
+  const known = {
+    b: { firstSeen: day(2), lastSeen: day(3), absentRuns: 0 },
+    a: { firstSeen: day(1), lastSeen: day(1), absentRuns: 4 },
+  };
+  const r1 = unionRoot(known);
+  const r2 = unionRoot({ ...known });
+  assert.equal(r1, r2); // order-independent
+  const tampered = { ...known, a: { ...known.a, lastSeen: day(9) } };
+  assert.notEqual(unionRoot(tampered), r1); // date change moves the root
+  const grown = { ...known, c: { firstSeen: day(3), lastSeen: day(3), absentRuns: 0 } };
+  assert.notEqual(unionRoot(grown), r1); // set change moves the root
+  // absentRuns deliberately NOT in the preimage: it is advisory streak state,
+  // not coverage; it must not be able to move the digest a reader checks.
+});
+
+test("bootstrap replay reproduces unionRoot of the folded union", () => {
+  const files = [
+    { date: day(1), posts: [{ id: "a" }, { id: "b" }] },
+    { date: day(2), posts: [{ id: "b" }, { id: "c" }] },
+  ];
+  const k = bootstrapKnownIds(files);
+  const root1 = unionRoot(k);
+  // a "published" root must equal what any reader replaying the same files gets
+  const k2 = bootstrapKnownIds(JSON.parse(JSON.stringify(files)));
+  assert.equal(unionRoot(k2), root1);
+  const forged = JSON.parse(JSON.stringify(files));
+  forged[1].posts.push({ id: "x" }); // one fabricated snapshot entry
+  assert.notEqual(unionRoot(bootstrapKnownIds(forged)), root1);
 });
 
 test("hitCount: flat and increasing are ok, any decrease is flagged", () => {

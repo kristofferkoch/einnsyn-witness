@@ -407,58 +407,7 @@
       "lastSeen": "2026-08-27"
     }
   },
-  "suspects": [
-    "http://data.einnsyn.no/noark4/Journalpost--974761467--2016--1515--14--2016",
-    "http://data.einnsyn.no/noark4/Journalpost--974761467--2021--3339--8--2021",
-    "http://data.einnsyn.no/noark4/Journalpost--974761467--2021--3348--16--2023",
-    "http://data.einnsyn.no/noark4/Journalpost--974761467--2022--5055--44--2026",
-    "http://data.einnsyn.no/noark4/Journalpost--974761467--2023--3763--18--2026",
-    "http://data.einnsyn.no/noark4/Journalpost--974761467--2023--4772--10--2026",
-    "http://data.einnsyn.no/noark4/Journalpost--974761467--2023--4772--12--2026",
-    "http://data.einnsyn.no/noark4/Journalpost--974761467--2024--914--26--2026",
-    "http://data.einnsyn.no/noark4/Journalpost--974761467--2025--6040--7--2026",
-    "http://data.einnsyn.no/noark4/Journalpost--974761467--2025--6161--4--2026",
-    "http://data.einnsyn.no/noark4/Journalpost--974761467--2025--6222--2--2025",
-    "http://data.einnsyn.no/noark4/Journalpost--974761467--2025--6647--3--2026",
-    "http://data.einnsyn.no/noark4/Journalpost--974761467--2026--354--4--2026",
-    "http://data.einnsyn.no/noark4/Journalpost--974761467--2026--368--2--2026",
-    "http://data.einnsyn.no/noark4/Journalpost--974761467--2026--419--1--2026",
-    "http://data.einnsyn.no/noark4/Journalpost--974761467--2026--494--1--2026",
-    "http://data.einnsyn.no/noark4/Journalpost--974761467--2026--508--1--2026",
-    "http://data.einnsyn.no/noark4/Journalpost--974761467--2026--519--1--2026",
-    "http://data.einnsyn.no/noark4/Journalpost--974761467--2026--523--1--2026",
-    "http://data.einnsyn.no/noark4/Journalpost--974761467--2026--534--1--2026",
-    "http://data.einnsyn.no/noark4/Journalpost--974761467--2026--553--1--2026",
-    "http://data.einnsyn.no/noark4/Journalpost--974761467--2026--569--1--2026",
-    "http://data.einnsyn.no/noark4/Journalpost--974761467--2026--573--1--2026",
-    "http://data.einnsyn.no/noark4/Journalpost--974761467--2026--575--1--2026",
-    "http://data.einnsyn.no/noark4/Journalpost--974761467--2026--578--1--2026",
-    "http://data.einnsyn.no/noark4/Journalpost--974761467--2026--581--1--2026",
-    "http://data.einnsyn.no/noark4/Journalpost--974761467--2026--592--1--2026",
-    "http://data.einnsyn.no/noark4/Journalpost--974761467--2026--598--1--2026",
-    "http://data.einnsyn.no/noark4/Journalpost--974761467--2026--599--1--2026",
-    "http://data.einnsyn.no/noark4/Journalpost--974761467--2026--639--1--2026",
-    "http://data.einnsyn.no/noark4/Journalpost--974761467--2026--718--2--2026",
-    "http://data.einnsyn.no/noark4/Journalpost--974761467--2026--770--2--2026",
-    "http://data.einnsyn.no/noark4/Journalpost--974761467--2026--879--1--2026",
-    "http://data.einnsyn.no/noark4/Journalpost--974761467--2026--882--1--2026",
-    "http://data.einnsyn.no/noark4/Journalpost--974761467--2026--883--1--2026",
-    "http://data.einnsyn.no/noark4/Journalpost--974761467--2026--884--1--2026",
-    "http://data.einnsyn.no/noark4/Journalpost--974761467--2026--890--1--2026",
-    "http://data.einnsyn.no/noark4/Journalpost--974761467--2026--902--2--2026",
-    "http://data.einnsyn.no/noark4/Journalpost--974761467--2026--904--1--2026",
-    "http://data.einnsyn.no/noark4/Journalpost--974761467--2026--910--1--2026",
-    "http://data.einnsyn.no/noark4/Journalpost--974761467--2026--912--1--2026",
-    "http://data.einnsyn.no/noark4/Saksmappe--974761467--170--2026",
-    "http://data.einnsyn.no/noark4/Saksmappe--974761467--586--2026",
-    "http://data.einnsyn.no/noark4/Saksmappe--974761467--6040--2025",
-    "http://data.einnsyn.no/noark4/Saksmappe--974761467--6827--2025",
-    "http://data.einnsyn.no/noark4/Saksmappe--974761467--6901--2025",
-    "http://data.einnsyn.no/noark4/Saksmappe--974761467--796--2026",
-    "http://data.einnsyn.no/noark4/Saksmappe--974761467--879--2026",
-    "http://data.einnsyn.no/noark4/Saksmappe--974761467--892--2026",
-    "http://data.einnsyn.no/noark4/Saksmappe--974761467--909--2026"
-  ],
+  "suspects": [],
   "hitCountHistory": [
     {
       "date": "2026-08-26",
@@ -468,5 +417,7 @@
       "date": "2026-08-27",
       "hitCount": 196418
     }
-  ]
+  ],
+  "unionRoot": "e625d3ec9fabe320e053695a85688b12cf51551b16b5c5e2836f21a50d053efc",
+  "oscillationObserved": true
 }

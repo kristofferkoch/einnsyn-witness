@@ -16,7 +16,7 @@ import { writeFileSync, readFileSync, existsSync, mkdirSync, readdirSync } from 
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { postJson } from "./lib/http.mjs";
-import { updateKnownIds, checkHitCounts, bootstrapKnownIds } from "./lib/coverage.mjs";
+import { updateKnownIds, checkHitCounts, bootstrapKnownIds, unionRoot } from "./lib/coverage.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = __dirname;
@@ -127,6 +127,8 @@ function emptyState() {
     totalSnapshots: 0,
     knownIds: {},
     suspects: [],
+    oscillationObserved: false,
+    unionRoot: null,
     hitCountHistory: [],
   };
 }
@@ -197,12 +199,14 @@ function computeCoverage(state, prev, posts, date, hitCount) {
   const coverage = updateKnownIds({
     known,
     suspects: state.suspects || [],
+    oscillationObserved: state.oscillationObserved || false,
     prevWindow: prev ? prev.posts.map((p) => p.id) : [],
     currWindow: posts.map((p) => p.id),
     runDate: date,
   });
   const hit = checkHitCounts(state.hitCountHistory || [], hitCount);
-  return { coverage, hit, bootstrapped };
+  const root = unionRoot(coverage.known);
+  return { coverage, hit, bootstrapped, unionRoot: root };
 }
 
 // --- Changelog ---
@@ -273,10 +277,15 @@ function appendChangelog(date, summary, diff, cov) {
     }\n`;
     const rotated = c.exits.filter((e) => e.rotatedOut).length;
     const exitsSuspect = c.exits.filter((e) => !e.rotatedOut).map((e) => e.id);
-    entry += `- **Exits from window:** ${c.exits.length} — ${rotated} rotated (new posts pushed them out), ${exitsSuspect.length} suspect (nothing new arrived)\n`;
-    entry += `- **Suspects standing:** ${c.suspects.length}${
-      c.suspects.length ? ` — ${c.suspects.join(", ")} ⚠️ drift = a known id that never returns` : ""
-    }\n`;
+    entry += `- **Exits from window:** ${c.exits.length} — ${rotated} rotated (new posts pushed them out), ${exitsSuspect.length} unclassified-exit (nothing new arrived)\n`;
+    if (c.oscillationObserved) {
+      entry += `- **Suspects standing:** 0 — suspect classification SUSPENDED (window oscillation observed: a known id returned after absence, so the window is not a stable head; exits stay recorded, hitCount remains the global check)\n`;
+    } else {
+      entry += `- **Suspects standing:** ${c.suspects.length}${
+        c.suspects.length ? ` — ${c.suspects.join(", ")} ⚠️ drift = a known id that never returns` : ""
+      }\n`;
+    }
+    entry += `- **Union root:** \`${cov.unionRoot}\` — sha256 over sorted \`id|firstSeen|lastSeen\` lines of the union; replaying snapshots/ must reproduce it (witness.mjs --verify-union)\n`;
     entry += `- **hitCount:** ${summary.hitCount} — ${
       cov.hit.ok ? "monotone ok (≥ max seen)" : `DROP ⚠️ ${JSON.stringify(cov.hit.drops)}`
     }\n\n`;
@@ -297,13 +306,50 @@ function writeHeartbeat(status, fields = {}) {
   if (fields.snapshotSize !== undefined) lines.push(`snapshotSize: ${fields.snapshotSize}`);
   if (fields.idSetHash) lines.push(`id-set-hash: ${fields.idSetHash}`);
   if (fields.contentHash) lines.push(`content-hash: ${fields.contentHash}`);
+  if (fields.unionRoot) lines.push(`union-root: ${fields.unionRoot}`);
   if (fields.diff) lines.push(`diff: ${fields.diff}`);
   if (fields.error) lines.push(`error: ${fields.error}`);
   writeFileSync(LAST_RUN_FILE, lines.join("\n") + "\n");
 }
 
 // --- Main ---
+// --- Verify mode: the union is a claim about the snapshots, check it ---
+// Replays every snapshot file (date order) and recomputes the union root.
+// Must equal the root persisted in state. Any edit to state, to a snapshot,
+// or a snapshot deleted from history, moves or mismatches the digest.
+function verifyUnion() {
+  if (!existsSync(STATE_FILE)) {
+    console.error("[einnsyn-witness] no state file — nothing to verify against");
+    process.exit(1);
+  }
+  const state = loadState();
+  const files = existsSync(SNAPSHOTS_DIR)
+    ? readdirSync(SNAPSHOTS_DIR)
+        .filter((f) => f.endsWith(".json"))
+        .sort()
+        .map((f) => JSON.parse(readFileSync(join(SNAPSHOTS_DIR, f), "utf-8")))
+    : [];
+  const replayed = unionRoot(bootstrapKnownIds(files));
+  const claimed = state.unionRoot;
+  if (claimed && replayed === claimed) {
+    console.log(`[einnsyn-witness] union verified: ${replayed}`);
+    process.exit(0);
+  }
+  if (claimed && replayed !== claimed) {
+    console.error(
+      `[einnsyn-witness] UNION MISMATCH — replay ${replayed} != state ${claimed}. state/snapshot divergence.`,
+    );
+    process.exit(1);
+  }
+  console.error("[einnsyn-witness] state has no unionRoot yet (predates the root); run once to establish");
+  process.exit(1);
+}
+
 async function main() {
+  if (process.argv.includes("--verify-union")) {
+    verifyUnion();
+    return;
+  }
   console.log(`[einnsyn-witness] Fetching latest ${SNAPSHOT_SIZE} posts for ${TARGET_NAME}...`);
 
   const data = await fetchJournalPosts();
@@ -369,6 +415,8 @@ async function main() {
     totalSnapshots: (state.totalSnapshots || 0) + 1,
     knownIds: cov.coverage.known,
     suspects: cov.coverage.suspects,
+    oscillationObserved: cov.coverage.oscillationObserved,
+    unionRoot: cov.unionRoot,
     hitCountHistory: [...(state.hitCountHistory || []), { date, hitCount: data.hitCount }],
   };
   saveState(newState);
@@ -385,15 +433,15 @@ async function main() {
   } else {
     console.log("[einnsyn-witness] First run — baseline established.");
   }
-  const covLine = `union ${Object.keys(cov.coverage.known).length}, +new ${cov.coverage.newIds.length}, returned ${cov.coverage.returnedIds.length}, exits ${cov.coverage.exits.length} (suspect ${cov.coverage.suspects.length} standing), hitCount ${cov.hit.ok ? "monotone ok" : "DROP"}`;
+  const covLine = `union ${Object.keys(cov.coverage.known).length}, +new ${cov.coverage.newIds.length}, returned ${cov.coverage.returnedIds.length}, exits ${cov.coverage.exits.length} (suspect ${cov.coverage.suspects.length} standing${cov.coverage.oscillationObserved ? "; classification suspended: oscillation" : ""}), union-root ${cov.unionRoot.slice(0, 16)}, hitCount ${cov.hit.ok ? "monotone ok" : "DROP"}`;
   console.log(`[einnsyn-witness] Coverage: ${covLine}`);
-
   writeHeartbeat("ok", {
     target: TARGET_NAME,
     hitCount: data.hitCount,
     snapshotSize: posts.length,
     idSetHash: iHash,
     contentHash: cHash,
+    unionRoot: cov.unionRoot,
     diff: diff
       ? `+${diff.added.length} added, -${diff.removed.length} removed, ~${diff.changed.length} changed`
       : "baseline",
