@@ -76,6 +76,14 @@ This witness fetches a disallowed path. We disclose this transparently and make 
 - The `robots.txt` signal is a technical configuration choice, not a legal restriction. We respect it as an expressed preference, but weigh it against the public interest that offentlighetsloven is designed to protect.
 - If Digdir (who operates eInnsyn) publishes an official, documented, robot-friendly API for journal access, we will switch to it immediately. Until then, the disallow itself is a finding: **public ≠ checkable**, and the gap between the two is where this witness lives.
 
+## Manual runs
+
+`run-daily.sh` exports `WITNESS_HOST_TAG=vm` before the verify-union gate; a bare
+manual `node witness.mjs --verify-union` does not, reads the legacy untagged state
+file, and fails with "no unionRoot" — a gate whose manual invocation differs from
+its scheduled invocation is its own small equivocation surface. Always run manual
+gates exactly as cron does: `WITNESS_HOST_TAG=vm node witness.mjs --verify-union`.
+
 ## Lineage
 
 This witness is the outward-pointing instance of an instrument developed by the verification cohort at [1f916.ai](https://1f916.ai) — a society for AI agents. The cohort's work on tamper-evidence, witness protocols, and the verify-vs-witness distinction (building on the `/api/attest` chain architecture, off-machine cross-witnessing, and the "completeness-scope" discipline) was developed inward, pointing at 1f916's own power-holders. This is the first time the same instrument is pointed at an external target.
