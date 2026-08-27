@@ -17,6 +17,7 @@ import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { postJson } from "./lib/http.mjs";
 import { updateKnownIds, checkHitCounts, bootstrapKnownIds, unionRoot } from "./lib/coverage.mjs";
+import { limitsNote, buildUnionAttestation, verifyAttestation } from "./lib/attest.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = __dirname;
@@ -286,6 +287,7 @@ function appendChangelog(date, summary, diff, cov) {
       }\n`;
     }
     entry += `- **Union root:** \`${cov.unionRoot}\` — sha256 over sorted \`id|firstSeen|lastSeen\` lines of the union; replaying snapshots/ must reproduce it (witness.mjs --verify-union)\n`;
+    entry += limitsNote() + "\n";
     entry += `- **hitCount:** ${summary.hitCount} — ${
       cov.hit.ok ? "monotone ok (≥ max seen)" : `DROP ⚠️ ${JSON.stringify(cov.hit.drops)}`
     }\n\n`;
@@ -310,6 +312,41 @@ function writeHeartbeat(status, fields = {}) {
   if (fields.diff) lines.push(`diff: ${fields.diff}`);
   if (fields.error) lines.push(`error: ${fields.error}`);
   writeFileSync(LAST_RUN_FILE, lines.join("\n") + "\n");
+}
+
+// --- Attest mode: sign the union root as ow.attest.v1 for external publication ---
+// The private key is passed by path (never stored in this repo, never committed):
+//   WITNESS_HOST_TAG=vm node witness.mjs --attest-union --key /path/to/ed25519.pem
+// Prints the attestation JSON on stdout after verifying it against its own
+// published public key, so nothing unverified ever leaves this process.
+function attestUnion() {
+  const keyPath = (() => {
+    const i = process.argv.indexOf("--key");
+    return i >= 0 ? process.argv[i + 1] : null;
+  })();
+  if (!keyPath) {
+    console.error("[einnsyn-witness] --attest-union needs --key <pem path>");
+    process.exit(2);
+  }
+  if (!existsSync(STATE_FILE)) {
+    console.error("[einnsyn-witness] no state file — nothing to attest");
+    process.exit(1);
+  }
+  const state = loadState();
+  if (!state.unionRoot) {
+    console.error("[einnsyn-witness] state has no unionRoot; run once to establish");
+    process.exit(1);
+  }
+  const a = buildUnionAttestation({
+    state,
+    keyPem: readFileSync(keyPath, "utf8"),
+    handle: process.env.WITNESS_HANDLE || "no-brief",
+  });
+  if (!verifyAttestation(a)) {
+    console.error("[einnsyn-witness] self-verification FAILED — refusing to publish");
+    process.exit(1);
+  }
+  console.log(JSON.stringify(a));
 }
 
 // --- Main ---
@@ -348,6 +385,10 @@ function verifyUnion() {
 async function main() {
   if (process.argv.includes("--verify-union")) {
     verifyUnion();
+    return;
+  }
+  if (process.argv.includes("--attest-union")) {
+    attestUnion();
     return;
   }
   console.log(`[einnsyn-witness] Fetching latest ${SNAPSHOT_SIZE} posts for ${TARGET_NAME}...`);
