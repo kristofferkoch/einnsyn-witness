@@ -1,0 +1,1786 @@
+{
+  "date": "2026-08-29",
+  "timestamp": "2026-08-29T11:54:23.791Z",
+  "target": "Datatilsynet",
+  "targetIri": "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+  "hitCount": 197737,
+  "snapshotSize": 50,
+  "idSetHash": "5f697a6f55375b38872500f3d3388966a785ef575844ca7abe83d295753656c4",
+  "contentHash": "cdc2c65d5bb46bc981277b1c17d70b9465415944a67a4b0f6a5265810be6ea21",
+  "note": "50 of 197737 total posts. id-set-hash is sha256 of sorted ids; content-hash is sha256 of canonical JSON per post, sorted. See CHANGELOG.md for diffs.",
+  "posts": [
+    {
+      "id": "http://data.einnsyn.no/noark4/Journalpost--974761467--2026--718--2--2026",
+      "title": "Overhalla kommune - tilsyn 2026",
+      "saksnummer": "2026/718",
+      "type": [
+        "Journalpost"
+      ],
+      "journalposttype": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/inngåendeDokument",
+      "publisertDato": "2026-04-24T12:47:49.616004+02:00",
+      "oppdatertDato": "2026-04-24T12:47:49.616004+02:00",
+      "journaldato": "2026-01-28",
+      "skjerming": {
+        "tilgangsrestriksjon": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/unntattOffentlighet",
+        "accessibleAfter": "2024-09-06T23:38:34.8431+02:00",
+        "administrativEnhetTransitive": [
+          "enh_01j73r5z2cfb9a4n570xv6v0xd",
+          "enh_01j73r5z1met9r2znfpzmwttnp",
+          "enh_01j73r64ncf7mrydaa03saatpt"
+        ],
+        "arkivskaperTransitive": [
+          "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+          "http://data.einnsyn.no/virksomhet/toppnodeStat",
+          "http://data.einnsyn.no/virksomhet/root"
+        ],
+        "created": "2024-09-06T23:38:34.8431+02:00",
+        "arkivskaper": "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+        "id": "skj_01j74mcmpteq0bgwwf10wcpj83",
+        "arkivskaperNavn": [
+          "Datatilsynet",
+          "Stat",
+          "Root enhet"
+        ],
+        "type": [
+          "Skjerming"
+        ],
+        "updated": "2024-09-06T23:38:34.843101+02:00",
+        "administrativEnhet": "enh_01j73r5z2cfb9a4n570xv6v0xd",
+        "arkivskaperSorteringNavn": "Datatilsynet"
+      }
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Saksmappe--974761467--170--2026",
+      "title": "Finanstilsynet - Arbeidsgruppe om utredning av finansforetaks taushetsplikt for forskningsformål",
+      "saksnummer": "2026/170",
+      "type": [
+        "Saksmappe"
+      ],
+      "journalposttype": null,
+      "publisertDato": "2026-04-16T05:55:46.606748Z",
+      "oppdatertDato": "2026-04-16T05:55:46.606748Z",
+      "journaldato": null,
+      "skjerming": null
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Journalpost--974761467--2026--879--1--2026",
+      "title": "Talkmore - Krav om innsyn i personopplysninger mm",
+      "saksnummer": "2026/879",
+      "type": [
+        "Journalpost"
+      ],
+      "journalposttype": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/inngåendeDokument",
+      "publisertDato": "2026-04-24T12:46:16.571015+02:00",
+      "oppdatertDato": "2026-04-24T12:46:16.571016+02:00",
+      "journaldato": "2026-01-30",
+      "skjerming": {
+        "accessibleAfter": "2024-10-18T12:30:00.894217+02:00",
+        "created": "2024-10-18T12:30:00.894217+02:00",
+        "type": [
+          "Skjerming"
+        ],
+        "arkivskaperSorteringNavn": "Datatilsynet",
+        "tilgangsrestriksjon": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/unntattOffentlighet",
+        "administrativEnhetTransitive": [
+          "enh_01j73r5z2cfb9a4n570xv6v0xd",
+          "enh_01j73r5z1met9r2znfpzmwttnp",
+          "enh_01j73r64ncf7mrydaa03saatpt"
+        ],
+        "arkivskaperTransitive": [
+          "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+          "http://data.einnsyn.no/virksomhet/toppnodeStat",
+          "http://data.einnsyn.no/virksomhet/root"
+        ],
+        "arkivskaper": "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+        "id": "skj_01jafjtmynetxtthpdydmy7dt7",
+        "arkivskaperNavn": [
+          "Datatilsynet",
+          "Stat",
+          "Root enhet"
+        ],
+        "updated": "2024-10-18T12:30:00.894217+02:00",
+        "skjermingshjemmel": "Offl. § 13, jf. personopplysningsloven § 24 første ledd 2. punktum",
+        "administrativEnhet": "enh_01j73r5z2cfb9a4n570xv6v0xd"
+      }
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Journalpost--974761467--2026--883--1--2026",
+      "title": "Melding om avvik - RANA KOMMUNE STAB OPPVEKST OG KULTUR",
+      "saksnummer": "2026/883",
+      "type": [
+        "Journalpost"
+      ],
+      "journalposttype": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/inngåendeDokument",
+      "publisertDato": "2026-04-24T12:46:18.592904+02:00",
+      "oppdatertDato": "2026-04-24T12:46:18.592904+02:00",
+      "journaldato": "2026-01-30",
+      "skjerming": {
+        "tilgangsrestriksjon": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/unntattOffentlighet",
+        "accessibleAfter": "2024-09-06T23:38:34.8431+02:00",
+        "administrativEnhetTransitive": [
+          "enh_01j73r5z2cfb9a4n570xv6v0xd",
+          "enh_01j73r5z1met9r2znfpzmwttnp",
+          "enh_01j73r64ncf7mrydaa03saatpt"
+        ],
+        "arkivskaperTransitive": [
+          "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+          "http://data.einnsyn.no/virksomhet/toppnodeStat",
+          "http://data.einnsyn.no/virksomhet/root"
+        ],
+        "created": "2024-09-06T23:38:34.8431+02:00",
+        "arkivskaper": "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+        "id": "skj_01j74mcmpteq0bgwwf10wcpj83",
+        "arkivskaperNavn": [
+          "Datatilsynet",
+          "Stat",
+          "Root enhet"
+        ],
+        "type": [
+          "Skjerming"
+        ],
+        "updated": "2024-09-06T23:38:34.843101+02:00",
+        "administrativEnhet": "enh_01j73r5z2cfb9a4n570xv6v0xd",
+        "arkivskaperSorteringNavn": "Datatilsynet"
+      }
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Saksmappe--974761467--879--2026",
+      "title": "Talkmore - Krav om innsyn i personopplysninger mm",
+      "saksnummer": "2026/879",
+      "type": [
+        "Saksmappe"
+      ],
+      "journalposttype": null,
+      "publisertDato": "2026-04-24T10:46:09.640093Z",
+      "oppdatertDato": "2026-04-24T10:46:09.640093Z",
+      "journaldato": null,
+      "skjerming": null
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Journalpost--974761467--2026--884--1--2026",
+      "title": "Melding om avvik - Privatmegleren AS",
+      "saksnummer": "2026/884",
+      "type": [
+        "Journalpost"
+      ],
+      "journalposttype": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/inngåendeDokument",
+      "publisertDato": "2026-04-24T12:46:20.243745+02:00",
+      "oppdatertDato": "2026-04-24T12:46:20.243745+02:00",
+      "journaldato": "2026-01-30",
+      "skjerming": {
+        "tilgangsrestriksjon": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/unntattOffentlighet",
+        "accessibleAfter": "2024-09-06T23:38:34.8431+02:00",
+        "administrativEnhetTransitive": [
+          "enh_01j73r5z2cfb9a4n570xv6v0xd",
+          "enh_01j73r5z1met9r2znfpzmwttnp",
+          "enh_01j73r64ncf7mrydaa03saatpt"
+        ],
+        "arkivskaperTransitive": [
+          "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+          "http://data.einnsyn.no/virksomhet/toppnodeStat",
+          "http://data.einnsyn.no/virksomhet/root"
+        ],
+        "created": "2024-09-06T23:38:34.8431+02:00",
+        "arkivskaper": "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+        "id": "skj_01j74mcmpteq0bgwwf10wcpj83",
+        "arkivskaperNavn": [
+          "Datatilsynet",
+          "Stat",
+          "Root enhet"
+        ],
+        "type": [
+          "Skjerming"
+        ],
+        "updated": "2024-09-06T23:38:34.843101+02:00",
+        "administrativEnhet": "enh_01j73r5z2cfb9a4n570xv6v0xd",
+        "arkivskaperSorteringNavn": "Datatilsynet"
+      }
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Journalpost--974761467--2026--770--2--2026",
+      "title": "Melding om avvik - MOBITECH AS",
+      "saksnummer": "2026/770",
+      "type": [
+        "Journalpost"
+      ],
+      "journalposttype": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/inngåendeDokument",
+      "publisertDato": "2026-04-24T12:46:22.058165+02:00",
+      "oppdatertDato": "2026-04-24T12:46:22.058165+02:00",
+      "journaldato": "2026-01-30",
+      "skjerming": {
+        "tilgangsrestriksjon": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/unntattOffentlighet",
+        "accessibleAfter": "2024-09-06T23:38:34.8431+02:00",
+        "administrativEnhetTransitive": [
+          "enh_01j73r5z2cfb9a4n570xv6v0xd",
+          "enh_01j73r5z1met9r2znfpzmwttnp",
+          "enh_01j73r64ncf7mrydaa03saatpt"
+        ],
+        "arkivskaperTransitive": [
+          "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+          "http://data.einnsyn.no/virksomhet/toppnodeStat",
+          "http://data.einnsyn.no/virksomhet/root"
+        ],
+        "created": "2024-09-06T23:38:34.8431+02:00",
+        "arkivskaper": "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+        "id": "skj_01j74mcmpteq0bgwwf10wcpj83",
+        "arkivskaperNavn": [
+          "Datatilsynet",
+          "Stat",
+          "Root enhet"
+        ],
+        "type": [
+          "Skjerming"
+        ],
+        "updated": "2024-09-06T23:38:34.843101+02:00",
+        "administrativEnhet": "enh_01j73r5z2cfb9a4n570xv6v0xd",
+        "arkivskaperSorteringNavn": "Datatilsynet"
+      }
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Journalpost--974761467--2026--910--1--2026",
+      "title": "Melding om avvik - KAMPEN SKOLE",
+      "saksnummer": "2026/910",
+      "type": [
+        "Journalpost"
+      ],
+      "journalposttype": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/inngåendeDokument",
+      "publisertDato": "2026-04-24T12:46:44.620088+02:00",
+      "oppdatertDato": "2026-04-24T12:46:44.620089+02:00",
+      "journaldato": "2026-01-30",
+      "skjerming": {
+        "tilgangsrestriksjon": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/unntattOffentlighet",
+        "accessibleAfter": "2024-09-06T23:38:34.8431+02:00",
+        "administrativEnhetTransitive": [
+          "enh_01j73r5z2cfb9a4n570xv6v0xd",
+          "enh_01j73r5z1met9r2znfpzmwttnp",
+          "enh_01j73r64ncf7mrydaa03saatpt"
+        ],
+        "arkivskaperTransitive": [
+          "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+          "http://data.einnsyn.no/virksomhet/toppnodeStat",
+          "http://data.einnsyn.no/virksomhet/root"
+        ],
+        "created": "2024-09-06T23:38:34.8431+02:00",
+        "arkivskaper": "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+        "id": "skj_01j74mcmpteq0bgwwf10wcpj83",
+        "arkivskaperNavn": [
+          "Datatilsynet",
+          "Stat",
+          "Root enhet"
+        ],
+        "type": [
+          "Skjerming"
+        ],
+        "updated": "2024-09-06T23:38:34.843101+02:00",
+        "administrativEnhet": "enh_01j73r5z2cfb9a4n570xv6v0xd",
+        "arkivskaperSorteringNavn": "Datatilsynet"
+      }
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Journalpost--974761467--2023--4772--12--2026",
+      "title": "Poznan University of Medical Sciences - Krav om sletting av personopplysninger på internett",
+      "saksnummer": "2023/4772",
+      "type": [
+        "Journalpost"
+      ],
+      "journalposttype": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/inngåendeDokument",
+      "publisertDato": "2026-04-24T12:45:35.953226+02:00",
+      "oppdatertDato": "2026-04-24T12:45:35.953226+02:00",
+      "journaldato": "2026-01-30",
+      "skjerming": {
+        "accessibleAfter": "2024-10-18T12:30:00.894217+02:00",
+        "created": "2024-10-18T12:30:00.894217+02:00",
+        "type": [
+          "Skjerming"
+        ],
+        "arkivskaperSorteringNavn": "Datatilsynet",
+        "tilgangsrestriksjon": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/unntattOffentlighet",
+        "administrativEnhetTransitive": [
+          "enh_01j73r5z2cfb9a4n570xv6v0xd",
+          "enh_01j73r5z1met9r2znfpzmwttnp",
+          "enh_01j73r64ncf7mrydaa03saatpt"
+        ],
+        "arkivskaperTransitive": [
+          "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+          "http://data.einnsyn.no/virksomhet/toppnodeStat",
+          "http://data.einnsyn.no/virksomhet/root"
+        ],
+        "arkivskaper": "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+        "id": "skj_01jafjtmynetxtthpdydmy7dt7",
+        "arkivskaperNavn": [
+          "Datatilsynet",
+          "Stat",
+          "Root enhet"
+        ],
+        "updated": "2024-10-18T12:30:00.894217+02:00",
+        "skjermingshjemmel": "Offl. § 13, jf. personopplysningsloven § 24 første ledd 2. punktum",
+        "administrativEnhet": "enh_01j73r5z2cfb9a4n570xv6v0xd"
+      }
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Journalpost--974761467--2024--914--26--2026",
+      "title": "Gjensidige forsikring - Krav om innsyn i personopplysninger",
+      "saksnummer": "2024/914",
+      "type": [
+        "Journalpost"
+      ],
+      "journalposttype": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/utgåendeDokument",
+      "publisertDato": "2026-04-24T12:45:36.447491+02:00",
+      "oppdatertDato": "2026-04-24T12:45:36.447492+02:00",
+      "journaldato": "2026-01-30",
+      "skjerming": {
+        "accessibleAfter": "2024-10-18T12:30:00.894217+02:00",
+        "created": "2024-10-18T12:30:00.894217+02:00",
+        "type": [
+          "Skjerming"
+        ],
+        "arkivskaperSorteringNavn": "Datatilsynet",
+        "tilgangsrestriksjon": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/unntattOffentlighet",
+        "administrativEnhetTransitive": [
+          "enh_01j73r5z2cfb9a4n570xv6v0xd",
+          "enh_01j73r5z1met9r2znfpzmwttnp",
+          "enh_01j73r64ncf7mrydaa03saatpt"
+        ],
+        "arkivskaperTransitive": [
+          "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+          "http://data.einnsyn.no/virksomhet/toppnodeStat",
+          "http://data.einnsyn.no/virksomhet/root"
+        ],
+        "arkivskaper": "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+        "id": "skj_01jafjtmynetxtthpdydmy7dt7",
+        "arkivskaperNavn": [
+          "Datatilsynet",
+          "Stat",
+          "Root enhet"
+        ],
+        "updated": "2024-10-18T12:30:00.894217+02:00",
+        "skjermingshjemmel": "Offl. § 13, jf. personopplysningsloven § 24 første ledd 2. punktum",
+        "administrativEnhet": "enh_01j73r5z2cfb9a4n570xv6v0xd"
+      }
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Journalpost--974761467--2022--5055--44--2026",
+      "title": "Kongsberg kommune - Klage på reklame og salg/deling av personopplysninger i digitale læremidler til tredjeparter - PVN-sak 26/380",
+      "saksnummer": "2022/5055",
+      "type": [
+        "Journalpost"
+      ],
+      "journalposttype": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/utgåendeDokument",
+      "publisertDato": "2026-04-24T12:45:57.016415+02:00",
+      "oppdatertDato": "2026-04-24T12:45:57.016415+02:00",
+      "journaldato": "2026-01-30",
+      "skjerming": {
+        "accessibleAfter": "2024-10-18T12:30:00.894217+02:00",
+        "created": "2024-10-18T12:30:00.894217+02:00",
+        "type": [
+          "Skjerming"
+        ],
+        "arkivskaperSorteringNavn": "Datatilsynet",
+        "tilgangsrestriksjon": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/unntattOffentlighet",
+        "administrativEnhetTransitive": [
+          "enh_01j73r5z2cfb9a4n570xv6v0xd",
+          "enh_01j73r5z1met9r2znfpzmwttnp",
+          "enh_01j73r64ncf7mrydaa03saatpt"
+        ],
+        "arkivskaperTransitive": [
+          "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+          "http://data.einnsyn.no/virksomhet/toppnodeStat",
+          "http://data.einnsyn.no/virksomhet/root"
+        ],
+        "arkivskaper": "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+        "id": "skj_01jafjtmynetxtthpdydmy7dt7",
+        "arkivskaperNavn": [
+          "Datatilsynet",
+          "Stat",
+          "Root enhet"
+        ],
+        "updated": "2024-10-18T12:30:00.894217+02:00",
+        "skjermingshjemmel": "Offl. § 13, jf. personopplysningsloven § 24 første ledd 2. punktum",
+        "administrativEnhet": "enh_01j73r5z2cfb9a4n570xv6v0xd"
+      }
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Journalpost--974761467--2025--6161--4--2026",
+      "title": "Melding om avvik - ALNA BYDELSADMINISTRASJON",
+      "saksnummer": "2025/6161",
+      "type": [
+        "Journalpost"
+      ],
+      "journalposttype": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/utgåendeDokument",
+      "publisertDato": "2026-04-24T12:46:02.109276+02:00",
+      "oppdatertDato": "2026-04-24T12:46:02.109276+02:00",
+      "journaldato": "2026-01-30",
+      "skjerming": {
+        "tilgangsrestriksjon": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/unntattOffentlighet",
+        "accessibleAfter": "2024-09-06T23:38:34.8431+02:00",
+        "administrativEnhetTransitive": [
+          "enh_01j73r5z2cfb9a4n570xv6v0xd",
+          "enh_01j73r5z1met9r2znfpzmwttnp",
+          "enh_01j73r64ncf7mrydaa03saatpt"
+        ],
+        "arkivskaperTransitive": [
+          "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+          "http://data.einnsyn.no/virksomhet/toppnodeStat",
+          "http://data.einnsyn.no/virksomhet/root"
+        ],
+        "created": "2024-09-06T23:38:34.8431+02:00",
+        "arkivskaper": "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+        "id": "skj_01j74mcmpteq0bgwwf10wcpj83",
+        "arkivskaperNavn": [
+          "Datatilsynet",
+          "Stat",
+          "Root enhet"
+        ],
+        "type": [
+          "Skjerming"
+        ],
+        "updated": "2024-09-06T23:38:34.843101+02:00",
+        "administrativEnhet": "enh_01j73r5z2cfb9a4n570xv6v0xd",
+        "arkivskaperSorteringNavn": "Datatilsynet"
+      }
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Saksmappe--974761467--892--2026",
+      "title": "Nettsiden b2bhint.com - Krav om sletting av personopplysninger",
+      "saksnummer": "2026/892",
+      "type": [
+        "Saksmappe"
+      ],
+      "journalposttype": null,
+      "publisertDato": "2026-04-24T10:45:57.026692Z",
+      "oppdatertDato": "2026-04-24T10:45:57.026692Z",
+      "journaldato": null,
+      "skjerming": null
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Journalpost--974761467--2026--902--2--2026",
+      "title": "TikTok - Krav om sletting av brukerkonto",
+      "saksnummer": "2026/902",
+      "type": [
+        "Journalpost"
+      ],
+      "journalposttype": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/utgåendeDokument",
+      "publisertDato": "2026-04-24T12:46:23.066031+02:00",
+      "oppdatertDato": "2026-04-24T12:46:23.066031+02:00",
+      "journaldato": "2026-01-30",
+      "skjerming": {
+        "accessibleAfter": "2024-10-18T12:30:00.894217+02:00",
+        "created": "2024-10-18T12:30:00.894217+02:00",
+        "type": [
+          "Skjerming"
+        ],
+        "arkivskaperSorteringNavn": "Datatilsynet",
+        "tilgangsrestriksjon": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/unntattOffentlighet",
+        "administrativEnhetTransitive": [
+          "enh_01j73r5z2cfb9a4n570xv6v0xd",
+          "enh_01j73r5z1met9r2znfpzmwttnp",
+          "enh_01j73r64ncf7mrydaa03saatpt"
+        ],
+        "arkivskaperTransitive": [
+          "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+          "http://data.einnsyn.no/virksomhet/toppnodeStat",
+          "http://data.einnsyn.no/virksomhet/root"
+        ],
+        "arkivskaper": "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+        "id": "skj_01jafjtmynetxtthpdydmy7dt7",
+        "arkivskaperNavn": [
+          "Datatilsynet",
+          "Stat",
+          "Root enhet"
+        ],
+        "updated": "2024-10-18T12:30:00.894217+02:00",
+        "skjermingshjemmel": "Offl. § 13, jf. personopplysningsloven § 24 første ledd 2. punktum",
+        "administrativEnhet": "enh_01j73r5z2cfb9a4n570xv6v0xd"
+      }
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Journalpost--974761467--2026--882--1--2026",
+      "title": "Melding om avvik - HELSEPLATTFORMEN AS",
+      "saksnummer": "2026/882",
+      "type": [
+        "Journalpost"
+      ],
+      "journalposttype": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/inngåendeDokument",
+      "publisertDato": "2026-04-24T12:46:24.487729+02:00",
+      "oppdatertDato": "2026-04-24T12:46:24.487729+02:00",
+      "journaldato": "2026-01-30",
+      "skjerming": {
+        "tilgangsrestriksjon": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/unntattOffentlighet",
+        "accessibleAfter": "2024-09-06T23:38:34.8431+02:00",
+        "administrativEnhetTransitive": [
+          "enh_01j73r5z2cfb9a4n570xv6v0xd",
+          "enh_01j73r5z1met9r2znfpzmwttnp",
+          "enh_01j73r64ncf7mrydaa03saatpt"
+        ],
+        "arkivskaperTransitive": [
+          "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+          "http://data.einnsyn.no/virksomhet/toppnodeStat",
+          "http://data.einnsyn.no/virksomhet/root"
+        ],
+        "created": "2024-09-06T23:38:34.8431+02:00",
+        "arkivskaper": "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+        "id": "skj_01j74mcmpteq0bgwwf10wcpj83",
+        "arkivskaperNavn": [
+          "Datatilsynet",
+          "Stat",
+          "Root enhet"
+        ],
+        "type": [
+          "Skjerming"
+        ],
+        "updated": "2024-09-06T23:38:34.843101+02:00",
+        "administrativEnhet": "enh_01j73r5z2cfb9a4n570xv6v0xd",
+        "arkivskaperSorteringNavn": "Datatilsynet"
+      }
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Saksmappe--974761467--586--2026",
+      "title": "Sør-Fron kommune - tilsyn 2026",
+      "saksnummer": "2026/586",
+      "type": [
+        "Saksmappe"
+      ],
+      "journalposttype": null,
+      "publisertDato": "2026-04-24T10:37:33.029690Z",
+      "oppdatertDato": "2026-04-24T10:37:33.029690Z",
+      "journaldato": null,
+      "skjerming": null
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Journalpost--974761467--2026--904--1--2026",
+      "title": "Amili Collection AS - Klage på behandling av personopplysninger",
+      "saksnummer": "2026/904",
+      "type": [
+        "Journalpost"
+      ],
+      "journalposttype": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/inngåendeDokument",
+      "publisertDato": "2026-04-24T12:46:29.628703+02:00",
+      "oppdatertDato": "2026-04-24T12:46:29.628703+02:00",
+      "journaldato": "2026-01-30",
+      "skjerming": {
+        "accessibleAfter": "2024-10-18T12:30:00.894217+02:00",
+        "created": "2024-10-18T12:30:00.894217+02:00",
+        "type": [
+          "Skjerming"
+        ],
+        "arkivskaperSorteringNavn": "Datatilsynet",
+        "tilgangsrestriksjon": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/unntattOffentlighet",
+        "administrativEnhetTransitive": [
+          "enh_01j73r5z2cfb9a4n570xv6v0xd",
+          "enh_01j73r5z1met9r2znfpzmwttnp",
+          "enh_01j73r64ncf7mrydaa03saatpt"
+        ],
+        "arkivskaperTransitive": [
+          "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+          "http://data.einnsyn.no/virksomhet/toppnodeStat",
+          "http://data.einnsyn.no/virksomhet/root"
+        ],
+        "arkivskaper": "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+        "id": "skj_01jafjtmynetxtthpdydmy7dt7",
+        "arkivskaperNavn": [
+          "Datatilsynet",
+          "Stat",
+          "Root enhet"
+        ],
+        "updated": "2024-10-18T12:30:00.894217+02:00",
+        "skjermingshjemmel": "Offl. § 13, jf. personopplysningsloven § 24 første ledd 2. punktum",
+        "administrativEnhet": "enh_01j73r5z2cfb9a4n570xv6v0xd"
+      }
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Journalpost--974761467--2026--368--2--2026",
+      "title": "Melding om avvik - Sandnes kommune",
+      "saksnummer": "2026/368",
+      "type": [
+        "Journalpost"
+      ],
+      "journalposttype": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/inngåendeDokument",
+      "publisertDato": "2026-04-24T12:46:38.917628+02:00",
+      "oppdatertDato": "2026-04-24T12:46:38.917628+02:00",
+      "journaldato": "2026-01-30",
+      "skjerming": {
+        "tilgangsrestriksjon": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/unntattOffentlighet",
+        "accessibleAfter": "2024-09-06T23:38:34.8431+02:00",
+        "administrativEnhetTransitive": [
+          "enh_01j73r5z2cfb9a4n570xv6v0xd",
+          "enh_01j73r5z1met9r2znfpzmwttnp",
+          "enh_01j73r64ncf7mrydaa03saatpt"
+        ],
+        "arkivskaperTransitive": [
+          "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+          "http://data.einnsyn.no/virksomhet/toppnodeStat",
+          "http://data.einnsyn.no/virksomhet/root"
+        ],
+        "created": "2024-09-06T23:38:34.8431+02:00",
+        "arkivskaper": "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+        "id": "skj_01j74mcmpteq0bgwwf10wcpj83",
+        "arkivskaperNavn": [
+          "Datatilsynet",
+          "Stat",
+          "Root enhet"
+        ],
+        "type": [
+          "Skjerming"
+        ],
+        "updated": "2024-09-06T23:38:34.843101+02:00",
+        "administrativEnhet": "enh_01j73r5z2cfb9a4n570xv6v0xd",
+        "arkivskaperSorteringNavn": "Datatilsynet"
+      }
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Journalpost--974761467--2026--890--1--2026",
+      "title": "Klage på kameraovervåking i nabolag",
+      "saksnummer": "2026/890",
+      "type": [
+        "Journalpost"
+      ],
+      "journalposttype": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/inngåendeDokument",
+      "publisertDato": "2026-04-24T12:46:39.103816+02:00",
+      "oppdatertDato": "2026-04-24T12:46:39.103816+02:00",
+      "journaldato": "2026-01-30",
+      "skjerming": {
+        "accessibleAfter": "2024-10-18T12:30:00.894217+02:00",
+        "created": "2024-10-18T12:30:00.894217+02:00",
+        "type": [
+          "Skjerming"
+        ],
+        "arkivskaperSorteringNavn": "Datatilsynet",
+        "tilgangsrestriksjon": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/unntattOffentlighet",
+        "administrativEnhetTransitive": [
+          "enh_01j73r5z2cfb9a4n570xv6v0xd",
+          "enh_01j73r5z1met9r2znfpzmwttnp",
+          "enh_01j73r64ncf7mrydaa03saatpt"
+        ],
+        "arkivskaperTransitive": [
+          "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+          "http://data.einnsyn.no/virksomhet/toppnodeStat",
+          "http://data.einnsyn.no/virksomhet/root"
+        ],
+        "arkivskaper": "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+        "id": "skj_01jafjtmynetxtthpdydmy7dt7",
+        "arkivskaperNavn": [
+          "Datatilsynet",
+          "Stat",
+          "Root enhet"
+        ],
+        "updated": "2024-10-18T12:30:00.894217+02:00",
+        "skjermingshjemmel": "Offl. § 13, jf. personopplysningsloven § 24 første ledd 2. punktum",
+        "administrativEnhet": "enh_01j73r5z2cfb9a4n570xv6v0xd"
+      }
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Journalpost--974761467--2026--912--1--2026",
+      "title": "Melding om avvik - OSLO KOMMUNE, ØKONOMI- OG FORVALTNINGSETATEN",
+      "saksnummer": "2026/912",
+      "type": [
+        "Journalpost"
+      ],
+      "journalposttype": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/inngåendeDokument",
+      "publisertDato": "2026-04-24T12:47:00.469036+02:00",
+      "oppdatertDato": "2026-04-24T12:47:00.469036+02:00",
+      "journaldato": "2026-01-30",
+      "skjerming": {
+        "tilgangsrestriksjon": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/unntattOffentlighet",
+        "accessibleAfter": "2024-09-06T23:38:34.8431+02:00",
+        "administrativEnhetTransitive": [
+          "enh_01j73r5z2cfb9a4n570xv6v0xd",
+          "enh_01j73r5z1met9r2znfpzmwttnp",
+          "enh_01j73r64ncf7mrydaa03saatpt"
+        ],
+        "arkivskaperTransitive": [
+          "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+          "http://data.einnsyn.no/virksomhet/toppnodeStat",
+          "http://data.einnsyn.no/virksomhet/root"
+        ],
+        "created": "2024-09-06T23:38:34.8431+02:00",
+        "arkivskaper": "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+        "id": "skj_01j74mcmpteq0bgwwf10wcpj83",
+        "arkivskaperNavn": [
+          "Datatilsynet",
+          "Stat",
+          "Root enhet"
+        ],
+        "type": [
+          "Skjerming"
+        ],
+        "updated": "2024-09-06T23:38:34.843101+02:00",
+        "administrativEnhet": "enh_01j73r5z2cfb9a4n570xv6v0xd",
+        "arkivskaperSorteringNavn": "Datatilsynet"
+      }
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Saksmappe--974761467--909--2026",
+      "title": "Melding om avvik - BUSKERUD FYLKESKOMMUNE",
+      "saksnummer": "2026/909",
+      "type": [
+        "Saksmappe"
+      ],
+      "journalposttype": null,
+      "publisertDato": "2026-04-24T10:46:50.446654Z",
+      "oppdatertDato": "2026-04-24T10:46:50.446654Z",
+      "journaldato": null,
+      "skjerming": null
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Journalpost--974761467--2023--3763--18--2026",
+      "title": "Klage på behandling av personopplysninger - Avskjermet",
+      "saksnummer": "2023/3763",
+      "type": [
+        "Journalpost"
+      ],
+      "journalposttype": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/utgåendeDokument",
+      "publisertDato": "2026-04-24T12:30:38.093033+02:00",
+      "oppdatertDato": "2026-04-24T12:30:38.093033+02:00",
+      "journaldato": "2026-01-27",
+      "skjerming": {
+        "accessibleAfter": "2024-10-18T12:30:00.894217+02:00",
+        "created": "2024-10-18T12:30:00.894217+02:00",
+        "type": [
+          "Skjerming"
+        ],
+        "arkivskaperSorteringNavn": "Datatilsynet",
+        "tilgangsrestriksjon": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/unntattOffentlighet",
+        "administrativEnhetTransitive": [
+          "enh_01j73r5z2cfb9a4n570xv6v0xd",
+          "enh_01j73r5z1met9r2znfpzmwttnp",
+          "enh_01j73r64ncf7mrydaa03saatpt"
+        ],
+        "arkivskaperTransitive": [
+          "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+          "http://data.einnsyn.no/virksomhet/toppnodeStat",
+          "http://data.einnsyn.no/virksomhet/root"
+        ],
+        "arkivskaper": "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+        "id": "skj_01jafjtmynetxtthpdydmy7dt7",
+        "arkivskaperNavn": [
+          "Datatilsynet",
+          "Stat",
+          "Root enhet"
+        ],
+        "updated": "2024-10-18T12:30:00.894217+02:00",
+        "skjermingshjemmel": "Offl. § 13, jf. personopplysningsloven § 24 første ledd 2. punktum",
+        "administrativEnhet": "enh_01j73r5z2cfb9a4n570xv6v0xd"
+      }
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Journalpost--974761467--2023--4772--10--2026",
+      "title": "Poznan University of Medical Sciences - Krav om sletting av personopplysninger på internett",
+      "saksnummer": "2023/4772",
+      "type": [
+        "Journalpost"
+      ],
+      "journalposttype": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/inngåendeDokument",
+      "publisertDato": "2026-04-24T12:30:51.150478+02:00",
+      "oppdatertDato": "2026-04-24T12:30:51.150478+02:00",
+      "journaldato": "2026-01-27",
+      "skjerming": {
+        "accessibleAfter": "2024-09-06T23:39:38.491085+02:00",
+        "created": "2024-09-06T23:39:38.491085+02:00",
+        "type": [
+          "Skjerming"
+        ],
+        "arkivskaperSorteringNavn": "Datatilsynet",
+        "tilgangsrestriksjon": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/unntattOffentlighet",
+        "administrativEnhetTransitive": [
+          "enh_01j73r5z2cfb9a4n570xv6v0xd",
+          "enh_01j73r5z1met9r2znfpzmwttnp",
+          "enh_01j73r64ncf7mrydaa03saatpt"
+        ],
+        "arkivskaperTransitive": [
+          "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+          "http://data.einnsyn.no/virksomhet/toppnodeStat",
+          "http://data.einnsyn.no/virksomhet/root"
+        ],
+        "arkivskaper": "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+        "id": "skj_01j74mejvtfz1rdpkenf1jem62",
+        "arkivskaperNavn": [
+          "Datatilsynet",
+          "Stat",
+          "Root enhet"
+        ],
+        "updated": "2024-09-06T23:39:38.491086+02:00",
+        "skjermingshjemmel": "Offl. § 20 første ledd B",
+        "administrativEnhet": "enh_01j73r5z2cfb9a4n570xv6v0xd"
+      }
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Journalpost--974761467--2025--6040--7--2026",
+      "title": "Arendal kommune - Klage på utlevering av personopplysninger uten samtykke mm",
+      "saksnummer": "2025/6040",
+      "type": [
+        "Journalpost"
+      ],
+      "journalposttype": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/utgåendeDokument",
+      "publisertDato": "2026-04-24T12:30:55.026122+02:00",
+      "oppdatertDato": "2026-04-24T12:30:55.026122+02:00",
+      "journaldato": "2026-01-27",
+      "skjerming": {
+        "accessibleAfter": "2024-10-18T12:30:00.894217+02:00",
+        "created": "2024-10-18T12:30:00.894217+02:00",
+        "type": [
+          "Skjerming"
+        ],
+        "arkivskaperSorteringNavn": "Datatilsynet",
+        "tilgangsrestriksjon": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/unntattOffentlighet",
+        "administrativEnhetTransitive": [
+          "enh_01j73r5z2cfb9a4n570xv6v0xd",
+          "enh_01j73r5z1met9r2znfpzmwttnp",
+          "enh_01j73r64ncf7mrydaa03saatpt"
+        ],
+        "arkivskaperTransitive": [
+          "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+          "http://data.einnsyn.no/virksomhet/toppnodeStat",
+          "http://data.einnsyn.no/virksomhet/root"
+        ],
+        "arkivskaper": "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+        "id": "skj_01jafjtmynetxtthpdydmy7dt7",
+        "arkivskaperNavn": [
+          "Datatilsynet",
+          "Stat",
+          "Root enhet"
+        ],
+        "updated": "2024-10-18T12:30:00.894217+02:00",
+        "skjermingshjemmel": "Offl. § 13, jf. personopplysningsloven § 24 første ledd 2. punktum",
+        "administrativEnhet": "enh_01j73r5z2cfb9a4n570xv6v0xd"
+      }
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Saksmappe--974761467--6040--2025",
+      "title": "Arendal kommune - Klage på utlevering av personopplysninger uten samtykke mm",
+      "saksnummer": "2025/6040",
+      "type": [
+        "Saksmappe"
+      ],
+      "journalposttype": null,
+      "publisertDato": "2026-03-13T14:11:34.410410Z",
+      "oppdatertDato": "2026-03-13T14:11:34.410410Z",
+      "journaldato": null,
+      "skjerming": null
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Saksmappe--974761467--6901--2025",
+      "title": "Jehovas vitner - Klage på uriktige og mangelfulle opplysninger vedrørende innsynsbegjæring om eksklusjon",
+      "saksnummer": "2025/6901",
+      "type": [
+        "Saksmappe"
+      ],
+      "journalposttype": null,
+      "publisertDato": "2026-03-26T13:38:32.161896Z",
+      "oppdatertDato": "2026-03-26T13:38:32.161897Z",
+      "journaldato": null,
+      "skjerming": null
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Journalpost--974761467--2026--354--4--2026",
+      "title": "Krav om innsyn i personopplysninger i SIS",
+      "saksnummer": "2026/354",
+      "type": [
+        "Journalpost"
+      ],
+      "journalposttype": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/utgåendeDokument",
+      "publisertDato": "2026-04-24T12:30:58.962774+02:00",
+      "oppdatertDato": "2026-04-24T12:30:58.962774+02:00",
+      "journaldato": "2026-01-27",
+      "skjerming": {
+        "accessibleAfter": "2024-10-30T11:30:38.205483+01:00",
+        "created": "2024-10-30T11:30:38.205483+01:00",
+        "type": [
+          "Skjerming"
+        ],
+        "arkivskaperSorteringNavn": "Datatilsynet",
+        "tilgangsrestriksjon": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/unntattOffentlighet",
+        "administrativEnhetTransitive": [
+          "enh_01j73r5z2cfb9a4n570xv6v0xd",
+          "enh_01j73r5z1met9r2znfpzmwttnp",
+          "enh_01j73r64ncf7mrydaa03saatpt"
+        ],
+        "arkivskaperTransitive": [
+          "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+          "http://data.einnsyn.no/virksomhet/toppnodeStat",
+          "http://data.einnsyn.no/virksomhet/root"
+        ],
+        "arkivskaper": "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+        "id": "skj_01jbefmdccfb488pt52hcasvkd",
+        "arkivskaperNavn": [
+          "Datatilsynet",
+          "Stat",
+          "Root enhet"
+        ],
+        "updated": "2024-10-30T11:30:38.205483+01:00",
+        "skjermingshjemmel": "Offentlighetsloven § 13 jf. forvaltningsloven § 13 (1) nr. 1",
+        "administrativEnhet": "enh_01j73r5z2cfb9a4n570xv6v0xd"
+      }
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Saksmappe--974761467--6827--2025",
+      "title": "Lesja kommune - Veiledningsmøte - Behandlingsansvarlig og databehandler i interkommunalt samarbeid",
+      "saksnummer": "2025/6827",
+      "type": [
+        "Saksmappe"
+      ],
+      "journalposttype": null,
+      "publisertDato": "2026-04-24T10:31:06.818193Z",
+      "oppdatertDato": "2026-04-24T10:31:06.818193Z",
+      "journaldato": null,
+      "skjerming": null
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Saksmappe--974761467--796--2026",
+      "title": "Melding om avvik - LØRENSKOG BARNEVERNTJENESTE",
+      "saksnummer": "2026/796",
+      "type": [
+        "Saksmappe"
+      ],
+      "journalposttype": null,
+      "publisertDato": "2026-04-24T10:30:21.300190Z",
+      "oppdatertDato": "2026-04-24T10:30:21.300190Z",
+      "journaldato": null,
+      "skjerming": null
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Journalpost--974761467--2026--553--1--2026",
+      "title": "Rollag kommune - tilsyn 2026",
+      "saksnummer": "2026/553",
+      "type": [
+        "Journalpost"
+      ],
+      "journalposttype": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/utgåendeDokument",
+      "publisertDato": "2026-04-24T12:36:29.852032+02:00",
+      "oppdatertDato": "2026-04-24T12:36:29.852033+02:00",
+      "journaldato": "2026-01-28",
+      "skjerming": {
+        "tilgangsrestriksjon": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/unntattOffentlighet",
+        "accessibleAfter": "2024-09-06T23:38:34.8431+02:00",
+        "administrativEnhetTransitive": [
+          "enh_01j73r5z2cfb9a4n570xv6v0xd",
+          "enh_01j73r5z1met9r2znfpzmwttnp",
+          "enh_01j73r64ncf7mrydaa03saatpt"
+        ],
+        "arkivskaperTransitive": [
+          "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+          "http://data.einnsyn.no/virksomhet/toppnodeStat",
+          "http://data.einnsyn.no/virksomhet/root"
+        ],
+        "created": "2024-09-06T23:38:34.8431+02:00",
+        "arkivskaper": "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+        "id": "skj_01j74mcmpteq0bgwwf10wcpj83",
+        "arkivskaperNavn": [
+          "Datatilsynet",
+          "Stat",
+          "Root enhet"
+        ],
+        "type": [
+          "Skjerming"
+        ],
+        "updated": "2024-09-06T23:38:34.843101+02:00",
+        "administrativEnhet": "enh_01j73r5z2cfb9a4n570xv6v0xd",
+        "arkivskaperSorteringNavn": "Datatilsynet"
+      }
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Journalpost--974761467--2026--573--1--2026",
+      "title": "Engerdal kommune - tilsyn 2026",
+      "saksnummer": "2026/573",
+      "type": [
+        "Journalpost"
+      ],
+      "journalposttype": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/utgåendeDokument",
+      "publisertDato": "2026-04-24T12:36:51.693207+02:00",
+      "oppdatertDato": "2026-04-24T12:36:51.693207+02:00",
+      "journaldato": "2026-01-28",
+      "skjerming": {
+        "tilgangsrestriksjon": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/unntattOffentlighet",
+        "accessibleAfter": "2024-09-06T23:38:34.8431+02:00",
+        "administrativEnhetTransitive": [
+          "enh_01j73r5z2cfb9a4n570xv6v0xd",
+          "enh_01j73r5z1met9r2znfpzmwttnp",
+          "enh_01j73r64ncf7mrydaa03saatpt"
+        ],
+        "arkivskaperTransitive": [
+          "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+          "http://data.einnsyn.no/virksomhet/toppnodeStat",
+          "http://data.einnsyn.no/virksomhet/root"
+        ],
+        "created": "2024-09-06T23:38:34.8431+02:00",
+        "arkivskaper": "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+        "id": "skj_01j74mcmpteq0bgwwf10wcpj83",
+        "arkivskaperNavn": [
+          "Datatilsynet",
+          "Stat",
+          "Root enhet"
+        ],
+        "type": [
+          "Skjerming"
+        ],
+        "updated": "2024-09-06T23:38:34.843101+02:00",
+        "administrativEnhet": "enh_01j73r5z2cfb9a4n570xv6v0xd",
+        "arkivskaperSorteringNavn": "Datatilsynet"
+      }
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Journalpost--974761467--2026--519--1--2026",
+      "title": "Nordre Follo kommune - tilsyn 2026",
+      "saksnummer": "2026/519",
+      "type": [
+        "Journalpost"
+      ],
+      "journalposttype": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/utgåendeDokument",
+      "publisertDato": "2026-04-24T12:36:57.592757+02:00",
+      "oppdatertDato": "2026-04-24T12:36:57.592757+02:00",
+      "journaldato": "2026-01-28",
+      "skjerming": {
+        "tilgangsrestriksjon": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/unntattOffentlighet",
+        "accessibleAfter": "2024-09-06T23:38:34.8431+02:00",
+        "administrativEnhetTransitive": [
+          "enh_01j73r5z2cfb9a4n570xv6v0xd",
+          "enh_01j73r5z1met9r2znfpzmwttnp",
+          "enh_01j73r64ncf7mrydaa03saatpt"
+        ],
+        "arkivskaperTransitive": [
+          "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+          "http://data.einnsyn.no/virksomhet/toppnodeStat",
+          "http://data.einnsyn.no/virksomhet/root"
+        ],
+        "created": "2024-09-06T23:38:34.8431+02:00",
+        "arkivskaper": "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+        "id": "skj_01j74mcmpteq0bgwwf10wcpj83",
+        "arkivskaperNavn": [
+          "Datatilsynet",
+          "Stat",
+          "Root enhet"
+        ],
+        "type": [
+          "Skjerming"
+        ],
+        "updated": "2024-09-06T23:38:34.843101+02:00",
+        "administrativEnhet": "enh_01j73r5z2cfb9a4n570xv6v0xd",
+        "arkivskaperSorteringNavn": "Datatilsynet"
+      }
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Journalpost--974761467--2026--581--1--2026",
+      "title": "Skjåk kommune - tilsyn 2026",
+      "saksnummer": "2026/581",
+      "type": [
+        "Journalpost"
+      ],
+      "journalposttype": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/utgåendeDokument",
+      "publisertDato": "2026-04-24T12:36:28.221746+02:00",
+      "oppdatertDato": "2026-04-24T12:36:28.221746+02:00",
+      "journaldato": "2026-01-28",
+      "skjerming": {
+        "tilgangsrestriksjon": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/unntattOffentlighet",
+        "accessibleAfter": "2024-09-06T23:38:34.8431+02:00",
+        "administrativEnhetTransitive": [
+          "enh_01j73r5z2cfb9a4n570xv6v0xd",
+          "enh_01j73r5z1met9r2znfpzmwttnp",
+          "enh_01j73r64ncf7mrydaa03saatpt"
+        ],
+        "arkivskaperTransitive": [
+          "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+          "http://data.einnsyn.no/virksomhet/toppnodeStat",
+          "http://data.einnsyn.no/virksomhet/root"
+        ],
+        "created": "2024-09-06T23:38:34.8431+02:00",
+        "arkivskaper": "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+        "id": "skj_01j74mcmpteq0bgwwf10wcpj83",
+        "arkivskaperNavn": [
+          "Datatilsynet",
+          "Stat",
+          "Root enhet"
+        ],
+        "type": [
+          "Skjerming"
+        ],
+        "updated": "2024-09-06T23:38:34.843101+02:00",
+        "administrativEnhet": "enh_01j73r5z2cfb9a4n570xv6v0xd",
+        "arkivskaperSorteringNavn": "Datatilsynet"
+      }
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Journalpost--974761467--2026--508--1--2026",
+      "title": "Råde kommune - tilsyn 2026",
+      "saksnummer": "2026/508",
+      "type": [
+        "Journalpost"
+      ],
+      "journalposttype": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/utgåendeDokument",
+      "publisertDato": "2026-04-24T12:36:36.568912+02:00",
+      "oppdatertDato": "2026-04-24T12:36:36.568912+02:00",
+      "journaldato": "2026-01-28",
+      "skjerming": {
+        "tilgangsrestriksjon": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/unntattOffentlighet",
+        "accessibleAfter": "2024-09-06T23:38:34.8431+02:00",
+        "administrativEnhetTransitive": [
+          "enh_01j73r5z2cfb9a4n570xv6v0xd",
+          "enh_01j73r5z1met9r2znfpzmwttnp",
+          "enh_01j73r64ncf7mrydaa03saatpt"
+        ],
+        "arkivskaperTransitive": [
+          "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+          "http://data.einnsyn.no/virksomhet/toppnodeStat",
+          "http://data.einnsyn.no/virksomhet/root"
+        ],
+        "created": "2024-09-06T23:38:34.8431+02:00",
+        "arkivskaper": "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+        "id": "skj_01j74mcmpteq0bgwwf10wcpj83",
+        "arkivskaperNavn": [
+          "Datatilsynet",
+          "Stat",
+          "Root enhet"
+        ],
+        "type": [
+          "Skjerming"
+        ],
+        "updated": "2024-09-06T23:38:34.843101+02:00",
+        "administrativEnhet": "enh_01j73r5z2cfb9a4n570xv6v0xd",
+        "arkivskaperSorteringNavn": "Datatilsynet"
+      }
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Journalpost--974761467--2026--592--1--2026",
+      "title": "Gran kommune - tilsyn 2026",
+      "saksnummer": "2026/592",
+      "type": [
+        "Journalpost"
+      ],
+      "journalposttype": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/utgåendeDokument",
+      "publisertDato": "2026-04-24T12:36:49.401114+02:00",
+      "oppdatertDato": "2026-04-24T12:36:49.401115+02:00",
+      "journaldato": "2026-01-28",
+      "skjerming": {
+        "tilgangsrestriksjon": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/unntattOffentlighet",
+        "accessibleAfter": "2024-09-06T23:38:34.8431+02:00",
+        "administrativEnhetTransitive": [
+          "enh_01j73r5z2cfb9a4n570xv6v0xd",
+          "enh_01j73r5z1met9r2znfpzmwttnp",
+          "enh_01j73r64ncf7mrydaa03saatpt"
+        ],
+        "arkivskaperTransitive": [
+          "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+          "http://data.einnsyn.no/virksomhet/toppnodeStat",
+          "http://data.einnsyn.no/virksomhet/root"
+        ],
+        "created": "2024-09-06T23:38:34.8431+02:00",
+        "arkivskaper": "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+        "id": "skj_01j74mcmpteq0bgwwf10wcpj83",
+        "arkivskaperNavn": [
+          "Datatilsynet",
+          "Stat",
+          "Root enhet"
+        ],
+        "type": [
+          "Skjerming"
+        ],
+        "updated": "2024-09-06T23:38:34.843101+02:00",
+        "administrativEnhet": "enh_01j73r5z2cfb9a4n570xv6v0xd",
+        "arkivskaperSorteringNavn": "Datatilsynet"
+      }
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Journalpost--974761467--2026--639--1--2026",
+      "title": "Evje og Hornnes kommune - tilsyn 2026",
+      "saksnummer": "2026/639",
+      "type": [
+        "Journalpost"
+      ],
+      "journalposttype": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/utgåendeDokument",
+      "publisertDato": "2026-04-24T12:37:02.186485+02:00",
+      "oppdatertDato": "2026-04-24T12:37:02.186486+02:00",
+      "journaldato": "2026-01-28",
+      "skjerming": {
+        "tilgangsrestriksjon": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/unntattOffentlighet",
+        "accessibleAfter": "2024-09-06T23:38:34.8431+02:00",
+        "administrativEnhetTransitive": [
+          "enh_01j73r5z2cfb9a4n570xv6v0xd",
+          "enh_01j73r5z1met9r2znfpzmwttnp",
+          "enh_01j73r64ncf7mrydaa03saatpt"
+        ],
+        "arkivskaperTransitive": [
+          "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+          "http://data.einnsyn.no/virksomhet/toppnodeStat",
+          "http://data.einnsyn.no/virksomhet/root"
+        ],
+        "created": "2024-09-06T23:38:34.8431+02:00",
+        "arkivskaper": "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+        "id": "skj_01j74mcmpteq0bgwwf10wcpj83",
+        "arkivskaperNavn": [
+          "Datatilsynet",
+          "Stat",
+          "Root enhet"
+        ],
+        "type": [
+          "Skjerming"
+        ],
+        "updated": "2024-09-06T23:38:34.843101+02:00",
+        "administrativEnhet": "enh_01j73r5z2cfb9a4n570xv6v0xd",
+        "arkivskaperSorteringNavn": "Datatilsynet"
+      }
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Journalpost--974761467--2026--578--1--2026",
+      "title": "Os kommune - tilsyn 2026",
+      "saksnummer": "2026/578",
+      "type": [
+        "Journalpost"
+      ],
+      "journalposttype": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/utgåendeDokument",
+      "publisertDato": "2026-04-24T12:37:01.134885+02:00",
+      "oppdatertDato": "2026-04-24T12:37:01.134885+02:00",
+      "journaldato": "2026-01-28",
+      "skjerming": {
+        "tilgangsrestriksjon": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/unntattOffentlighet",
+        "accessibleAfter": "2024-09-06T23:38:34.8431+02:00",
+        "administrativEnhetTransitive": [
+          "enh_01j73r5z2cfb9a4n570xv6v0xd",
+          "enh_01j73r5z1met9r2znfpzmwttnp",
+          "enh_01j73r64ncf7mrydaa03saatpt"
+        ],
+        "arkivskaperTransitive": [
+          "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+          "http://data.einnsyn.no/virksomhet/toppnodeStat",
+          "http://data.einnsyn.no/virksomhet/root"
+        ],
+        "created": "2024-09-06T23:38:34.8431+02:00",
+        "arkivskaper": "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+        "id": "skj_01j74mcmpteq0bgwwf10wcpj83",
+        "arkivskaperNavn": [
+          "Datatilsynet",
+          "Stat",
+          "Root enhet"
+        ],
+        "type": [
+          "Skjerming"
+        ],
+        "updated": "2024-09-06T23:38:34.843101+02:00",
+        "administrativEnhet": "enh_01j73r5z2cfb9a4n570xv6v0xd",
+        "arkivskaperSorteringNavn": "Datatilsynet"
+      }
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Journalpost--974761467--2026--575--1--2026",
+      "title": "Tynset kommune - tilsyn 2026",
+      "saksnummer": "2026/575",
+      "type": [
+        "Journalpost"
+      ],
+      "journalposttype": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/utgåendeDokument",
+      "publisertDato": "2026-04-24T12:37:00.437751+02:00",
+      "oppdatertDato": "2026-04-24T12:37:00.437751+02:00",
+      "journaldato": "2026-01-28",
+      "skjerming": {
+        "tilgangsrestriksjon": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/unntattOffentlighet",
+        "accessibleAfter": "2024-09-06T23:38:34.8431+02:00",
+        "administrativEnhetTransitive": [
+          "enh_01j73r5z2cfb9a4n570xv6v0xd",
+          "enh_01j73r5z1met9r2znfpzmwttnp",
+          "enh_01j73r64ncf7mrydaa03saatpt"
+        ],
+        "arkivskaperTransitive": [
+          "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+          "http://data.einnsyn.no/virksomhet/toppnodeStat",
+          "http://data.einnsyn.no/virksomhet/root"
+        ],
+        "created": "2024-09-06T23:38:34.8431+02:00",
+        "arkivskaper": "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+        "id": "skj_01j74mcmpteq0bgwwf10wcpj83",
+        "arkivskaperNavn": [
+          "Datatilsynet",
+          "Stat",
+          "Root enhet"
+        ],
+        "type": [
+          "Skjerming"
+        ],
+        "updated": "2024-09-06T23:38:34.843101+02:00",
+        "administrativEnhet": "enh_01j73r5z2cfb9a4n570xv6v0xd",
+        "arkivskaperSorteringNavn": "Datatilsynet"
+      }
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Journalpost--974761467--2026--599--1--2026",
+      "title": "Øystre Slidre kommune - tilsyn 2026",
+      "saksnummer": "2026/599",
+      "type": [
+        "Journalpost"
+      ],
+      "journalposttype": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/utgåendeDokument",
+      "publisertDato": "2026-04-24T12:37:05.545488+02:00",
+      "oppdatertDato": "2026-04-24T12:37:05.545488+02:00",
+      "journaldato": "2026-01-28",
+      "skjerming": {
+        "tilgangsrestriksjon": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/unntattOffentlighet",
+        "accessibleAfter": "2024-09-06T23:38:34.8431+02:00",
+        "administrativEnhetTransitive": [
+          "enh_01j73r5z2cfb9a4n570xv6v0xd",
+          "enh_01j73r5z1met9r2znfpzmwttnp",
+          "enh_01j73r64ncf7mrydaa03saatpt"
+        ],
+        "arkivskaperTransitive": [
+          "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+          "http://data.einnsyn.no/virksomhet/toppnodeStat",
+          "http://data.einnsyn.no/virksomhet/root"
+        ],
+        "created": "2024-09-06T23:38:34.8431+02:00",
+        "arkivskaper": "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+        "id": "skj_01j74mcmpteq0bgwwf10wcpj83",
+        "arkivskaperNavn": [
+          "Datatilsynet",
+          "Stat",
+          "Root enhet"
+        ],
+        "type": [
+          "Skjerming"
+        ],
+        "updated": "2024-09-06T23:38:34.843101+02:00",
+        "administrativEnhet": "enh_01j73r5z2cfb9a4n570xv6v0xd",
+        "arkivskaperSorteringNavn": "Datatilsynet"
+      }
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Journalpost--974761467--2026--598--1--2026",
+      "title": "Vestre Slidre kommune - tilsyn 2026",
+      "saksnummer": "2026/598",
+      "type": [
+        "Journalpost"
+      ],
+      "journalposttype": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/utgåendeDokument",
+      "publisertDato": "2026-04-24T12:37:03.364813+02:00",
+      "oppdatertDato": "2026-04-24T12:37:03.364813+02:00",
+      "journaldato": "2026-01-28",
+      "skjerming": {
+        "tilgangsrestriksjon": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/unntattOffentlighet",
+        "accessibleAfter": "2024-09-06T23:38:34.8431+02:00",
+        "administrativEnhetTransitive": [
+          "enh_01j73r5z2cfb9a4n570xv6v0xd",
+          "enh_01j73r5z1met9r2znfpzmwttnp",
+          "enh_01j73r64ncf7mrydaa03saatpt"
+        ],
+        "arkivskaperTransitive": [
+          "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+          "http://data.einnsyn.no/virksomhet/toppnodeStat",
+          "http://data.einnsyn.no/virksomhet/root"
+        ],
+        "created": "2024-09-06T23:38:34.8431+02:00",
+        "arkivskaper": "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+        "id": "skj_01j74mcmpteq0bgwwf10wcpj83",
+        "arkivskaperNavn": [
+          "Datatilsynet",
+          "Stat",
+          "Root enhet"
+        ],
+        "type": [
+          "Skjerming"
+        ],
+        "updated": "2024-09-06T23:38:34.843101+02:00",
+        "administrativEnhet": "enh_01j73r5z2cfb9a4n570xv6v0xd",
+        "arkivskaperSorteringNavn": "Datatilsynet"
+      }
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Journalpost--974761467--2026--419--1--2026",
+      "title": "Hå kommune - tilsyn 2026",
+      "saksnummer": "2026/419",
+      "type": [
+        "Journalpost"
+      ],
+      "journalposttype": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/utgåendeDokument",
+      "publisertDato": "2026-04-24T12:36:12.111218+02:00",
+      "oppdatertDato": "2026-04-24T12:36:12.111219+02:00",
+      "journaldato": "2026-01-28",
+      "skjerming": {
+        "tilgangsrestriksjon": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/unntattOffentlighet",
+        "accessibleAfter": "2024-09-06T23:38:34.8431+02:00",
+        "administrativEnhetTransitive": [
+          "enh_01j73r5z2cfb9a4n570xv6v0xd",
+          "enh_01j73r5z1met9r2znfpzmwttnp",
+          "enh_01j73r64ncf7mrydaa03saatpt"
+        ],
+        "arkivskaperTransitive": [
+          "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+          "http://data.einnsyn.no/virksomhet/toppnodeStat",
+          "http://data.einnsyn.no/virksomhet/root"
+        ],
+        "created": "2024-09-06T23:38:34.8431+02:00",
+        "arkivskaper": "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+        "id": "skj_01j74mcmpteq0bgwwf10wcpj83",
+        "arkivskaperNavn": [
+          "Datatilsynet",
+          "Stat",
+          "Root enhet"
+        ],
+        "type": [
+          "Skjerming"
+        ],
+        "updated": "2024-09-06T23:38:34.843101+02:00",
+        "administrativEnhet": "enh_01j73r5z2cfb9a4n570xv6v0xd",
+        "arkivskaperSorteringNavn": "Datatilsynet"
+      }
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Journalpost--974761467--2026--534--1--2026",
+      "title": "Nannestad kommune - tilsyn 2026",
+      "saksnummer": "2026/534",
+      "type": [
+        "Journalpost"
+      ],
+      "journalposttype": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/utgåendeDokument",
+      "publisertDato": "2026-04-24T12:36:18.961918+02:00",
+      "oppdatertDato": "2026-04-24T12:36:18.961918+02:00",
+      "journaldato": "2026-01-28",
+      "skjerming": {
+        "tilgangsrestriksjon": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/unntattOffentlighet",
+        "accessibleAfter": "2024-09-06T23:38:34.8431+02:00",
+        "administrativEnhetTransitive": [
+          "enh_01j73r5z2cfb9a4n570xv6v0xd",
+          "enh_01j73r5z1met9r2znfpzmwttnp",
+          "enh_01j73r64ncf7mrydaa03saatpt"
+        ],
+        "arkivskaperTransitive": [
+          "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+          "http://data.einnsyn.no/virksomhet/toppnodeStat",
+          "http://data.einnsyn.no/virksomhet/root"
+        ],
+        "created": "2024-09-06T23:38:34.8431+02:00",
+        "arkivskaper": "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+        "id": "skj_01j74mcmpteq0bgwwf10wcpj83",
+        "arkivskaperNavn": [
+          "Datatilsynet",
+          "Stat",
+          "Root enhet"
+        ],
+        "type": [
+          "Skjerming"
+        ],
+        "updated": "2024-09-06T23:38:34.843101+02:00",
+        "administrativEnhet": "enh_01j73r5z2cfb9a4n570xv6v0xd",
+        "arkivskaperSorteringNavn": "Datatilsynet"
+      }
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Journalpost--974761467--2026--569--1--2026",
+      "title": "Trysil kommune - tilsyn 2026",
+      "saksnummer": "2026/569",
+      "type": [
+        "Journalpost"
+      ],
+      "journalposttype": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/utgåendeDokument",
+      "publisertDato": "2026-04-24T12:36:19.063198+02:00",
+      "oppdatertDato": "2026-04-24T12:36:19.063199+02:00",
+      "journaldato": "2026-01-28",
+      "skjerming": {
+        "tilgangsrestriksjon": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/unntattOffentlighet",
+        "accessibleAfter": "2024-09-06T23:38:34.8431+02:00",
+        "administrativEnhetTransitive": [
+          "enh_01j73r5z2cfb9a4n570xv6v0xd",
+          "enh_01j73r5z1met9r2znfpzmwttnp",
+          "enh_01j73r64ncf7mrydaa03saatpt"
+        ],
+        "arkivskaperTransitive": [
+          "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+          "http://data.einnsyn.no/virksomhet/toppnodeStat",
+          "http://data.einnsyn.no/virksomhet/root"
+        ],
+        "created": "2024-09-06T23:38:34.8431+02:00",
+        "arkivskaper": "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+        "id": "skj_01j74mcmpteq0bgwwf10wcpj83",
+        "arkivskaperNavn": [
+          "Datatilsynet",
+          "Stat",
+          "Root enhet"
+        ],
+        "type": [
+          "Skjerming"
+        ],
+        "updated": "2024-09-06T23:38:34.843101+02:00",
+        "administrativEnhet": "enh_01j73r5z2cfb9a4n570xv6v0xd",
+        "arkivskaperSorteringNavn": "Datatilsynet"
+      }
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Journalpost--974761467--2026--523--1--2026",
+      "title": "Vestby kommune - tilsyn 2026",
+      "saksnummer": "2026/523",
+      "type": [
+        "Journalpost"
+      ],
+      "journalposttype": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/utgåendeDokument",
+      "publisertDato": "2026-04-24T12:37:09.853559+02:00",
+      "oppdatertDato": "2026-04-24T12:37:09.853559+02:00",
+      "journaldato": "2026-01-28",
+      "skjerming": {
+        "tilgangsrestriksjon": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/unntattOffentlighet",
+        "accessibleAfter": "2024-09-06T23:38:34.8431+02:00",
+        "administrativEnhetTransitive": [
+          "enh_01j73r5z2cfb9a4n570xv6v0xd",
+          "enh_01j73r5z1met9r2znfpzmwttnp",
+          "enh_01j73r64ncf7mrydaa03saatpt"
+        ],
+        "arkivskaperTransitive": [
+          "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+          "http://data.einnsyn.no/virksomhet/toppnodeStat",
+          "http://data.einnsyn.no/virksomhet/root"
+        ],
+        "created": "2024-09-06T23:38:34.8431+02:00",
+        "arkivskaper": "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+        "id": "skj_01j74mcmpteq0bgwwf10wcpj83",
+        "arkivskaperNavn": [
+          "Datatilsynet",
+          "Stat",
+          "Root enhet"
+        ],
+        "type": [
+          "Skjerming"
+        ],
+        "updated": "2024-09-06T23:38:34.843101+02:00",
+        "administrativEnhet": "enh_01j73r5z2cfb9a4n570xv6v0xd",
+        "arkivskaperSorteringNavn": "Datatilsynet"
+      }
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Journalpost--974761467--2026--494--1--2026",
+      "title": "Vestvågøy kommune - tilsyn 2026",
+      "saksnummer": "2026/494",
+      "type": [
+        "Journalpost"
+      ],
+      "journalposttype": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/utgåendeDokument",
+      "publisertDato": "2026-04-24T12:36:20.582599+02:00",
+      "oppdatertDato": "2026-04-24T12:36:20.5826+02:00",
+      "journaldato": "2026-01-28",
+      "skjerming": {
+        "tilgangsrestriksjon": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/unntattOffentlighet",
+        "accessibleAfter": "2024-09-06T23:38:34.8431+02:00",
+        "administrativEnhetTransitive": [
+          "enh_01j73r5z2cfb9a4n570xv6v0xd",
+          "enh_01j73r5z1met9r2znfpzmwttnp",
+          "enh_01j73r64ncf7mrydaa03saatpt"
+        ],
+        "arkivskaperTransitive": [
+          "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+          "http://data.einnsyn.no/virksomhet/toppnodeStat",
+          "http://data.einnsyn.no/virksomhet/root"
+        ],
+        "created": "2024-09-06T23:38:34.8431+02:00",
+        "arkivskaper": "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+        "id": "skj_01j74mcmpteq0bgwwf10wcpj83",
+        "arkivskaperNavn": [
+          "Datatilsynet",
+          "Stat",
+          "Root enhet"
+        ],
+        "type": [
+          "Skjerming"
+        ],
+        "updated": "2024-09-06T23:38:34.843101+02:00",
+        "administrativEnhet": "enh_01j73r5z2cfb9a4n570xv6v0xd",
+        "arkivskaperSorteringNavn": "Datatilsynet"
+      }
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Journalpost--974761467--2021--3339--8--2021",
+      "title": "Kontroll av databruk på gjestenettverk på borerigg",
+      "saksnummer": "2021/3339",
+      "type": [
+        "Journalpost"
+      ],
+      "journalposttype": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/inngåendeDokument",
+      "publisertDato": "2022-02-18T09:16:28.611+01:00",
+      "oppdatertDato": "2022-02-18T09:16:31.727+01:00",
+      "journaldato": "2021-12-15",
+      "skjerming": {
+        "accessibleAfter": "2024-09-06T23:39:38.21672+02:00",
+        "created": "2024-09-06T23:39:38.21672+02:00",
+        "type": [
+          "Skjerming"
+        ],
+        "arkivskaperSorteringNavn": "Datatilsynet",
+        "tilgangsrestriksjon": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/unntattOffentlighet",
+        "administrativEnhetTransitive": [
+          "enh_01j73r5z2cfb9a4n570xv6v0xd",
+          "enh_01j73r5z1met9r2znfpzmwttnp",
+          "enh_01j73r64ncf7mrydaa03saatpt"
+        ],
+        "arkivskaperTransitive": [
+          "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+          "http://data.einnsyn.no/virksomhet/toppnodeStat",
+          "http://data.einnsyn.no/virksomhet/root"
+        ],
+        "arkivskaper": "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+        "id": "skj_01j74mejk8e90bny1e6fha6zrx",
+        "arkivskaperNavn": [
+          "Datatilsynet",
+          "Stat",
+          "Root enhet"
+        ],
+        "updated": "2024-09-06T23:39:38.216721+02:00",
+        "skjermingshjemmel": "Offl. § 13 jf. Popplyl. § 24 (1) 2. pkt.",
+        "administrativEnhet": "enh_01j73r5z2cfb9a4n570xv6v0xd"
+      }
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Journalpost--974761467--2021--3348--16--2023",
+      "title": "Instagram / Facebook - Krav om sletting av brukerkonto",
+      "saksnummer": "2021/3348",
+      "type": [
+        "Journalpost"
+      ],
+      "journalposttype": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/utgåendeDokument",
+      "publisertDato": "2023-09-15T11:00:31.336+02:00",
+      "oppdatertDato": "2023-09-29T13:36:32.353046+02:00",
+      "journaldato": "2023-08-28",
+      "skjerming": {
+        "accessibleAfter": "2024-09-06T23:39:38.538187+02:00",
+        "created": "2024-09-06T23:39:38.538187+02:00",
+        "type": [
+          "Skjerming"
+        ],
+        "arkivskaperSorteringNavn": "Datatilsynet",
+        "tilgangsrestriksjon": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/unntattOffentlighet",
+        "administrativEnhetTransitive": [
+          "enh_01j73r5z2cfb9a4n570xv6v0xd",
+          "enh_01j73r5z1met9r2znfpzmwttnp",
+          "enh_01j73r64ncf7mrydaa03saatpt"
+        ],
+        "arkivskaperTransitive": [
+          "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+          "http://data.einnsyn.no/virksomhet/toppnodeStat",
+          "http://data.einnsyn.no/virksomhet/root"
+        ],
+        "arkivskaper": "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+        "id": "skj_01j74mejxae1jsxpcqettjnsm7",
+        "arkivskaperNavn": [
+          "Datatilsynet",
+          "Stat",
+          "Root enhet"
+        ],
+        "updated": "2024-09-06T23:39:38.538188+02:00",
+        "skjermingshjemmel": "Offl. § 13, jf. personopplysningsloven § 24  første ledd 2. punktum",
+        "administrativEnhet": "enh_01j73r5z2cfb9a4n570xv6v0xd"
+      }
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Journalpost--974761467--2016--1515--14--2016",
+      "title": "Ansettelsessak - Ledig stilling som juridisk avdelingsdirektør",
+      "saksnummer": "2016/1515",
+      "type": [
+        "Journalpost"
+      ],
+      "journalposttype": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/inngåendeDokument",
+      "publisertDato": "2016-11-03T01:00:00+01:00",
+      "oppdatertDato": "2016-11-03T01:00:00+01:00",
+      "journaldato": "2016-10-17",
+      "skjerming": {
+        "accessibleAfter": "2024-09-06T23:38:35.380191+02:00",
+        "created": "2024-09-06T23:38:35.380191+02:00",
+        "type": [
+          "Skjerming"
+        ],
+        "arkivskaperSorteringNavn": "Datatilsynet",
+        "tilgangsrestriksjon": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/unntattOffentlighet",
+        "administrativEnhetTransitive": [
+          "enh_01j73r5z2cfb9a4n570xv6v0xd",
+          "enh_01j73r5z1met9r2znfpzmwttnp",
+          "enh_01j73r64ncf7mrydaa03saatpt"
+        ],
+        "arkivskaperTransitive": [
+          "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+          "http://data.einnsyn.no/virksomhet/toppnodeStat",
+          "http://data.einnsyn.no/virksomhet/root"
+        ],
+        "arkivskaper": "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+        "id": "skj_01j74mcn7mftrsf7t7xd9pe4bq",
+        "arkivskaperNavn": [
+          "Datatilsynet",
+          "Stat",
+          "Root enhet"
+        ],
+        "updated": "2024-09-06T23:38:35.380191+02:00",
+        "skjermingshjemmel": "Offl § 25",
+        "administrativEnhet": "enh_01j73r5z2cfb9a4n570xv6v0xd"
+      }
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Journalpost--974761467--2025--6647--3--2026",
+      "title": "TV 2 AS - Klage på innhenting av personopplysninger for å endre på kontoinnstillinger",
+      "saksnummer": "2025/6647",
+      "type": [
+        "Journalpost"
+      ],
+      "journalposttype": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/utgåendeDokument",
+      "publisertDato": "2026-04-24T12:42:19.636068+02:00",
+      "oppdatertDato": "2026-04-24T12:42:19.636068+02:00",
+      "journaldato": "2026-01-29",
+      "skjerming": {
+        "accessibleAfter": "2024-10-18T12:30:00.894217+02:00",
+        "created": "2024-10-18T12:30:00.894217+02:00",
+        "type": [
+          "Skjerming"
+        ],
+        "arkivskaperSorteringNavn": "Datatilsynet",
+        "tilgangsrestriksjon": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/unntattOffentlighet",
+        "administrativEnhetTransitive": [
+          "enh_01j73r5z2cfb9a4n570xv6v0xd",
+          "enh_01j73r5z1met9r2znfpzmwttnp",
+          "enh_01j73r64ncf7mrydaa03saatpt"
+        ],
+        "arkivskaperTransitive": [
+          "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+          "http://data.einnsyn.no/virksomhet/toppnodeStat",
+          "http://data.einnsyn.no/virksomhet/root"
+        ],
+        "arkivskaper": "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+        "id": "skj_01jafjtmynetxtthpdydmy7dt7",
+        "arkivskaperNavn": [
+          "Datatilsynet",
+          "Stat",
+          "Root enhet"
+        ],
+        "updated": "2024-10-18T12:30:00.894217+02:00",
+        "skjermingshjemmel": "Offl. § 13, jf. personopplysningsloven § 24 første ledd 2. punktum",
+        "administrativEnhet": "enh_01j73r5z2cfb9a4n570xv6v0xd"
+      }
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Journalpost--974761467--2025--6222--2--2025",
+      "title": "Klage på overvåking og behandling av personopplysninger",
+      "saksnummer": "2025/6222",
+      "type": [
+        "Journalpost"
+      ],
+      "journalposttype": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/utgåendeDokument",
+      "publisertDato": "2026-03-19T15:22:48.497534+01:00",
+      "oppdatertDato": "2026-03-19T15:22:48.497535+01:00",
+      "journaldato": "2025-11-12",
+      "skjerming": {
+        "accessibleAfter": "2024-10-30T11:30:38.205483+01:00",
+        "created": "2024-10-30T11:30:38.205483+01:00",
+        "type": [
+          "Skjerming"
+        ],
+        "arkivskaperSorteringNavn": "Datatilsynet",
+        "tilgangsrestriksjon": "http://www.arkivverket.no/standarder/noark5/arkivstruktur/unntattOffentlighet",
+        "administrativEnhetTransitive": [
+          "enh_01j73r5z2cfb9a4n570xv6v0xd",
+          "enh_01j73r5z1met9r2znfpzmwttnp",
+          "enh_01j73r64ncf7mrydaa03saatpt"
+        ],
+        "arkivskaperTransitive": [
+          "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+          "http://data.einnsyn.no/virksomhet/toppnodeStat",
+          "http://data.einnsyn.no/virksomhet/root"
+        ],
+        "arkivskaper": "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+        "id": "skj_01jbefmdccfb488pt52hcasvkd",
+        "arkivskaperNavn": [
+          "Datatilsynet",
+          "Stat",
+          "Root enhet"
+        ],
+        "updated": "2024-10-30T11:30:38.205483+01:00",
+        "skjermingshjemmel": "Offentlighetsloven § 13 jf. forvaltningsloven § 13 (1) nr. 1",
+        "administrativEnhet": "enh_01j73r5z2cfb9a4n570xv6v0xd"
+      }
+    }
+  ]
+}
