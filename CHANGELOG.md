@@ -3698,3 +3698,69 @@ _...and 40 more._
 - **Limits:** no change found means none in what it watched. `lastSeen` bounds disappearance to the capture cadence (daily), not below it — removed-and-restored inside one interval leaves no trace in the union
 - **hitCount:** 203828 — monotone ok (≥ max seen)
 
+
+## 2026-11-05
+
+**Target:** Datatilsynet  
+**Total hits (agency):** 203828  
+**Snapshot size:** 50  
+**id-set-hash:** `580e4f62a6fab8728bd1e3243ec5edf5c7679c8fa623aa75994597b566680c70`  
+**content-hash:** `927e3c4b7c73e136097d9a8dc195fef17a28537b5b62d7c03c4a876d44a175be`
+
+### Diff from previous snapshot (2026-11-04)
+
+- **Added:** 50 post(s)
+- **Removed:** 50 post(s)
+- **Changed:** 0 post(s)
+
+#### Removed (⚠️ potential silent removals)
+
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2026--718--2--2026` — Overhalla kommune - tilsyn 2026 [2026/718]
+- `http://data.einnsyn.no/noark4/Saksmappe--974761467--170--2026` — Finanstilsynet - Arbeidsgruppe om utredning av finansforetaks taushetsplikt for forskningsformål [2026/170]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2026--879--1--2026` — Talkmore - Krav om innsyn i personopplysninger mm [2026/879]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2026--883--1--2026` — Melding om avvik - RANA KOMMUNE STAB OPPVEKST OG KULTUR [2026/883]
+- `http://data.einnsyn.no/noark4/Saksmappe--974761467--879--2026` — Talkmore - Krav om innsyn i personopplysninger mm [2026/879]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2026--884--1--2026` — Melding om avvik - Privatmegleren AS [2026/884]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2026--770--2--2026` — Melding om avvik - MOBITECH AS [2026/770]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2026--910--1--2026` — Melding om avvik - KAMPEN SKOLE [2026/910]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2023--4772--12--2026` — Poznan University of Medical Sciences - Krav om sletting av personopplysninger på internett [2023/4772]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2022--5055--44--2026` — Kongsberg kommune - Klage på reklame og salg/deling av personopplysninger i digitale læremidler til tredjeparter - PVN-sak 26/380 [2022/5055]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2025--6161--4--2026` — Melding om avvik - ALNA BYDELSADMINISTRASJON [2025/6161]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2026--902--2--2026` — TikTok - Krav om sletting av brukerkonto [2026/902]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2026--882--1--2026` — Melding om avvik - HELSEPLATTFORMEN AS [2026/882]
+- `http://data.einnsyn.no/noark4/Saksmappe--974761467--586--2026` — Sør-Fron kommune - tilsyn 2026 [2026/586]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2026--904--1--2026` — Amili Collection AS - Klage på behandling av personopplysninger [2026/904]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2026--368--2--2026` — Melding om avvik - Sandnes kommune [2026/368]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2026--890--1--2026` — Klage på kameraovervåking i nabolag [2026/890]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2026--912--1--2026` — Melding om avvik - OSLO KOMMUNE, ØKONOMI- OG FORVALTNINGSETATEN [2026/912]
+- `http://data.einnsyn.no/noark4/Saksmappe--974761467--909--2026` — Melding om avvik - BUSKERUD FYLKESKOMMUNE [2026/909]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2023--3763--18--2026` — Klage på behandling av personopplysninger - Avskjermet [2023/3763]
+
+_...and 30 more._
+
+#### Added (new posts — normal)
+
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2022--3593--4--2023` — Klage på utlevering av personopplysninger [2022/3593]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2023--1234--4--2023` — Sparebanken Møre Ålesund - Klage på manglende innsyn i logg over bankansattes oppslag på konto [2023/1234]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2023--1248--2--2023` — Helse- og omsorgsdepartementet - Høring - Forslag om forlengelse av forskrift 23. juni 2020 nr. 1287 om endringer i forskrift 20. juni 2003 nr. 740 om Meldingssystemet for smittsomme sykdommer (MSIS-forskriften) [2023/1248]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2023--1256--1--2023` — Melding om avvik - POLITIDIREKTORATET [2023/1256]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2023--1272--1--2023` — Bardu kommune - Brevkontroll [2023/1272]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2023--1274--3--2023` — Nittedal kommune - Brevkontroll og stedlig tilsyn 16. oktober 2023 [2023/1274]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2023--1271--10--2024` — Namsos kommune - Brevkontroll og stedlig tilsyn 23. oktober 2023 [2023/1271]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2022--4193--3--2022` — Klage på privat kameraovervåking i nabolag [2022/4193]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2022--4203--1--2022` — Melding om avvik - DNB BANK ASA [2022/4203]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2022--4171--4--2022` — Politiets Sikkerhetstjeneste m fl - Klage på behandling av personopplysninger [2022/4171]
+
+_...and 40 more._
+
+### Cumulative coverage (run 2026-11-05T13:39:21.260Z)
+
+- **Union:** 154 known id(s) — carried in state
+- **New this run:** 50
+- **Returned:** 0
+- **Exits from window:** 50 — 50 rotated (new posts pushed them out), 0 unclassified-exit (nothing new arrived)
+- **Suspects standing:** 0 — suspect classification SUSPENDED (window oscillation observed: a known id returned after absence, so the window is not a stable head; exits stay recorded, hitCount remains the global check)
+- **Union root:** `52b61098bc54321c38f5e7b88cc21958790b96cee8d0cef109c12fc3e0616fd2` — sha256 over sorted `id|firstSeen|lastSeen` lines of the union; replaying snapshots/ must reproduce it (witness.mjs --verify-union)
+- **Limits:** no change found means none in what it watched. `lastSeen` bounds disappearance to the capture cadence (daily), not below it — removed-and-restored inside one interval leaves no trace in the union
+- **hitCount:** 203828 — monotone ok (≥ max seen)
+
