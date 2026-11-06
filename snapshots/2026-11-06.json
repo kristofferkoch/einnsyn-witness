@@ -1,0 +1,663 @@
+{
+  "date": "2026-11-06",
+  "timestamp": "2026-11-06T13:23:26.511Z",
+  "target": "Datatilsynet",
+  "targetIri": "http://data.einnsyn.no/virksomhet/oepeksport_content_provider_100",
+  "hitCount": 204414,
+  "snapshotSize": 50,
+  "idSetHash": "0648eeb2492f57d69daea608a9489b5fc1a7a52c936d91e88cb8c8ab92e89294",
+  "contentHash": "cec616ba437f892adc073ca03c59e7a4bfa4c39f81e38c47ba05baf745de58f2",
+  "note": "50 of 204414 total posts. id-set-hash is sha256 of sorted ids; content-hash is sha256 of canonical JSON per post, sorted. See CHANGELOG.md for diffs.",
+  "posts": [
+    {
+      "id": "http://data.einnsyn.no/noark4/Saksmappe--974761467--170--2026",
+      "title": "Finanstilsynet - Arbeidsgruppe om utredning av finansforetaks taushetsplikt for forskningsformål",
+      "saksnummer": "2026/170",
+      "type": [
+        "Saksmappe"
+      ],
+      "journalposttype": null,
+      "publisertDato": "2026-04-16T05:55:46.606748Z",
+      "oppdatertDato": "2026-04-16T05:55:46.606748Z",
+      "journaldato": null,
+      "skjerming": null
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Saksmappe--974761467--879--2026",
+      "title": "Talkmore - Krav om innsyn i personopplysninger mm",
+      "saksnummer": "2026/879",
+      "type": [
+        "Saksmappe"
+      ],
+      "journalposttype": null,
+      "publisertDato": "2026-04-24T10:46:09.640093Z",
+      "oppdatertDato": "2026-04-24T10:46:09.640093Z",
+      "journaldato": null,
+      "skjerming": null
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Saksmappe--974761467--586--2026",
+      "title": "Sør-Fron kommune - tilsyn 2026",
+      "saksnummer": "2026/586",
+      "type": [
+        "Saksmappe"
+      ],
+      "journalposttype": null,
+      "publisertDato": "2026-04-24T10:37:33.029690Z",
+      "oppdatertDato": "2026-04-24T10:37:33.029690Z",
+      "journaldato": null,
+      "skjerming": null
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Saksmappe--974761467--909--2026",
+      "title": "Melding om avvik - BUSKERUD FYLKESKOMMUNE",
+      "saksnummer": "2026/909",
+      "type": [
+        "Saksmappe"
+      ],
+      "journalposttype": null,
+      "publisertDato": "2026-04-24T10:46:50.446654Z",
+      "oppdatertDato": "2026-04-24T10:46:50.446654Z",
+      "journaldato": null,
+      "skjerming": null
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Saksmappe--974761467--6040--2025",
+      "title": "Arendal kommune - Klage på utlevering av personopplysninger uten samtykke mm",
+      "saksnummer": "2025/6040",
+      "type": [
+        "Saksmappe"
+      ],
+      "journalposttype": null,
+      "publisertDato": "2026-03-13T14:11:34.410410Z",
+      "oppdatertDato": "2026-03-13T14:11:34.410410Z",
+      "journaldato": null,
+      "skjerming": null
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Saksmappe--974761467--6827--2025",
+      "title": "Lesja kommune - Veiledningsmøte - Behandlingsansvarlig og databehandler i interkommunalt samarbeid",
+      "saksnummer": "2025/6827",
+      "type": [
+        "Saksmappe"
+      ],
+      "journalposttype": null,
+      "publisertDato": "2026-04-24T10:31:06.818193Z",
+      "oppdatertDato": "2026-04-24T10:31:06.818193Z",
+      "journaldato": null,
+      "skjerming": null
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Saksmappe--974761467--796--2026",
+      "title": "Melding om avvik - LØRENSKOG BARNEVERNTJENESTE",
+      "saksnummer": "2026/796",
+      "type": [
+        "Saksmappe"
+      ],
+      "journalposttype": null,
+      "publisertDato": "2026-04-24T10:30:21.300190Z",
+      "oppdatertDato": "2026-04-24T10:30:21.300190Z",
+      "journaldato": null,
+      "skjerming": null
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Saksmappe--974761467--6249--2025",
+      "title": "Statkraft AS - Klage på behandling av personopplysninger om arbeidstaker - Innsyn i SMS-kommunikasjon",
+      "saksnummer": "2025/6249",
+      "type": [
+        "Saksmappe"
+      ],
+      "journalposttype": null,
+      "publisertDato": "2026-03-19T14:29:40.920225Z",
+      "oppdatertDato": "2026-03-19T14:29:40.920225Z",
+      "journaldato": null,
+      "skjerming": null
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Saksmappe--974761467--140--2026",
+      "title": "Fair Collection AS - Klage på utsendelse av personopplysninger til feil person",
+      "saksnummer": "2026/140",
+      "type": [
+        "Saksmappe"
+      ],
+      "journalposttype": null,
+      "publisertDato": "2026-04-16T05:54:28.215440Z",
+      "oppdatertDato": "2026-04-16T05:54:28.215440Z",
+      "journaldato": null,
+      "skjerming": null
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Saksmappe--974761467--832--2026",
+      "title": "Melding om avvik - RIDDERSAND SKOLE",
+      "saksnummer": "2026/832",
+      "type": [
+        "Saksmappe"
+      ],
+      "journalposttype": null,
+      "publisertDato": "2026-04-24T10:38:29.897108Z",
+      "oppdatertDato": "2026-04-24T10:38:29.897108Z",
+      "journaldato": null,
+      "skjerming": null
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Saksmappe--974761467--819--2026",
+      "title": "TIKTOK Norway AS - Krav om sletting av innlegg publisert på TikTok uten samtykke",
+      "saksnummer": "2026/819",
+      "type": [
+        "Saksmappe"
+      ],
+      "journalposttype": null,
+      "publisertDato": "2026-04-24T10:31:40.245342Z",
+      "oppdatertDato": "2026-04-24T10:31:40.245342Z",
+      "journaldato": null,
+      "skjerming": null
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Saksmappe--974761467--6755--2025",
+      "title": "Allente Norge AS - Klage på manglende sletting av personopplysninger",
+      "saksnummer": "2025/6755",
+      "type": [
+        "Saksmappe"
+      ],
+      "journalposttype": null,
+      "publisertDato": "2026-04-16T05:58:20.003172Z",
+      "oppdatertDato": "2026-04-16T05:58:20.003172Z",
+      "journaldato": null,
+      "skjerming": null
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Saksmappe--974761467--6910--2025",
+      "title": "Eiendomsmegler 1 Østlandet AS - klage på behandling av personopplysninger - krav om innsyn",
+      "saksnummer": "2025/6910",
+      "type": [
+        "Saksmappe"
+      ],
+      "journalposttype": null,
+      "publisertDato": "2026-03-26T13:38:34.981672Z",
+      "oppdatertDato": "2026-03-26T13:38:34.981673Z",
+      "journaldato": null,
+      "skjerming": null
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Saksmappe--974761467--1236--2025",
+      "title": "Stiftelsen Tamilsk Ressurs og Veiledningssenter (TRVS) / Annai Poopathi Tamilsk Kultursenter (APTK) - Klage på bruk av kameraovervåking",
+      "saksnummer": "2025/1236",
+      "type": [
+        "Saksmappe"
+      ],
+      "journalposttype": null,
+      "publisertDato": "2025-05-16T13:59:01.152882Z",
+      "oppdatertDato": "2026-04-16T05:58:15.167177Z",
+      "journaldato": null,
+      "skjerming": null
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Saksmappe--974761467--233--2026",
+      "title": "Melding om avvik - OSLO KOMMUNE BYDEL 13 ØSTENSJØ",
+      "saksnummer": "2026/233",
+      "type": [
+        "Saksmappe"
+      ],
+      "journalposttype": null,
+      "publisertDato": "2026-04-16T05:57:05.004796Z",
+      "oppdatertDato": "2026-04-16T05:57:05.004796Z",
+      "journaldato": null,
+      "skjerming": null
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Saksmappe--974761467--210--2026",
+      "title": "Melding om avvik - POLITI- OG LENSMANNSETATEN",
+      "saksnummer": "2026/210",
+      "type": [
+        "Saksmappe"
+      ],
+      "journalposttype": null,
+      "publisertDato": "2026-04-16T05:56:48.624938Z",
+      "oppdatertDato": "2026-04-16T05:56:48.624938Z",
+      "journaldato": null,
+      "skjerming": null
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Saksmappe--974761467--242--2026",
+      "title": "Melding om avvik - KREDINOR AS",
+      "saksnummer": "2026/242",
+      "type": [
+        "Saksmappe"
+      ],
+      "journalposttype": null,
+      "publisertDato": "2026-04-16T05:58:27.590610Z",
+      "oppdatertDato": "2026-04-16T05:58:27.590610Z",
+      "journaldato": null,
+      "skjerming": null
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Saksmappe--974761467--219--2026",
+      "title": "Melding om avvik - POLITI- OG LENSMANNSETATEN",
+      "saksnummer": "2026/219",
+      "type": [
+        "Saksmappe"
+      ],
+      "journalposttype": null,
+      "publisertDato": "2026-04-16T05:56:55.580359Z",
+      "oppdatertDato": "2026-04-16T05:56:55.580359Z",
+      "journaldato": null,
+      "skjerming": null
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Saksmappe--974761467--263--2026",
+      "title": "Melding om avvik - BODØ KOMMUNE",
+      "saksnummer": "2026/263",
+      "type": [
+        "Saksmappe"
+      ],
+      "journalposttype": null,
+      "publisertDato": "2026-04-16T05:58:26.230301Z",
+      "oppdatertDato": "2026-04-16T05:58:26.230302Z",
+      "journaldato": null,
+      "skjerming": null
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Saksmappe--974761467--277--2026",
+      "title": "Melding om avvik - HUMAN ETISK FORBUND",
+      "saksnummer": "2026/277",
+      "type": [
+        "Saksmappe"
+      ],
+      "journalposttype": null,
+      "publisertDato": "2026-04-16T05:58:39.389010Z",
+      "oppdatertDato": "2026-04-16T05:58:39.389010Z",
+      "journaldato": null,
+      "skjerming": null
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Saksmappe--974761467--5768--2025",
+      "title": "Melding om avvik - HORTEN KOMMUNE",
+      "saksnummer": "2025/5768",
+      "type": [
+        "Saksmappe"
+      ],
+      "journalposttype": null,
+      "publisertDato": "2026-02-06T11:29:37.160922Z",
+      "oppdatertDato": "2026-02-06T11:29:37.160922Z",
+      "journaldato": null,
+      "skjerming": null
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Saksmappe--974761467--824--2026",
+      "title": "Drammens Tidende - Klage på publisering av personopplysninger",
+      "saksnummer": "2026/824",
+      "type": [
+        "Saksmappe"
+      ],
+      "journalposttype": null,
+      "publisertDato": "2026-04-24T10:32:35.604804Z",
+      "oppdatertDato": "2026-04-24T10:32:35.604804Z",
+      "journaldato": null,
+      "skjerming": null
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Saksmappe--974761467--803--2026",
+      "title": "Melding om avvik - STIFTELSEN HANDELSHØYSKOLEN BI",
+      "saksnummer": "2026/803",
+      "type": [
+        "Saksmappe"
+      ],
+      "journalposttype": null,
+      "publisertDato": "2026-04-24T10:30:20.492389Z",
+      "oppdatertDato": "2026-04-24T10:30:20.492389Z",
+      "journaldato": null,
+      "skjerming": null
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Saksmappe--974761467--777--2026",
+      "title": "Melding om avvik - TRYG FORSIKRING HOVEDKONTOR",
+      "saksnummer": "2026/777",
+      "type": [
+        "Saksmappe"
+      ],
+      "journalposttype": null,
+      "publisertDato": "2026-04-24T10:30:24.444181Z",
+      "oppdatertDato": "2026-04-24T10:30:24.444181Z",
+      "journaldato": null,
+      "skjerming": null
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Saksmappe--974761467--822--2026",
+      "title": "Melding om avvik - NØSEN YOGA OG FJELLHOTELL AS",
+      "saksnummer": "2026/822",
+      "type": [
+        "Saksmappe"
+      ],
+      "journalposttype": null,
+      "publisertDato": "2026-04-24T10:32:27.998909Z",
+      "oppdatertDato": "2026-04-24T10:32:27.998909Z",
+      "journaldato": null,
+      "skjerming": null
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Saksmappe--974761467--4191--2025",
+      "title": "Vestby kommune - Krav om innsyn i personopplysninger",
+      "saksnummer": "2025/4191",
+      "type": [
+        "Saksmappe"
+      ],
+      "journalposttype": null,
+      "publisertDato": "2025-10-02T17:19:54.783232Z",
+      "oppdatertDato": "2025-10-02T17:19:54.783232Z",
+      "journaldato": null,
+      "skjerming": null
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Saksmappe--974761467--5742--2025",
+      "title": "Klage på behandling av personopplysninger og utlevering av bilde uten samtykke på  YouTube-kanal administrert av Diwan Company",
+      "saksnummer": "2025/5742",
+      "type": [
+        "Saksmappe"
+      ],
+      "journalposttype": null,
+      "publisertDato": "2026-02-06T11:28:24.791665Z",
+      "oppdatertDato": "2026-02-06T11:28:24.791665Z",
+      "journaldato": null,
+      "skjerming": null
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Saksmappe--974761467--5090--2025",
+      "title": "Vest politidistrikt - Krav innsyn i personopplysninger",
+      "saksnummer": "2025/5090",
+      "type": [
+        "Saksmappe"
+      ],
+      "journalposttype": null,
+      "publisertDato": "2025-12-04T16:32:08.617799Z",
+      "oppdatertDato": "2025-12-04T16:32:08.617799Z",
+      "journaldato": null,
+      "skjerming": null
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Saksmappe--974761467--5823--2025",
+      "title": "Melding om avvik - Mantena AS",
+      "saksnummer": "2025/5823",
+      "type": [
+        "Saksmappe"
+      ],
+      "journalposttype": null,
+      "publisertDato": "2026-03-18T15:23:39.049822Z",
+      "oppdatertDato": "2026-03-18T15:23:39.049822Z",
+      "journaldato": null,
+      "skjerming": null
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Saksmappe--974761467--360--2026",
+      "title": "Melding om avvik - OSLO KOMMUNE BYDEL 14 NORDSTRAND",
+      "saksnummer": "2026/360",
+      "type": [
+        "Saksmappe"
+      ],
+      "journalposttype": null,
+      "publisertDato": "2026-04-24T10:30:52.015891Z",
+      "oppdatertDato": "2026-04-24T10:30:52.015891Z",
+      "journaldato": null,
+      "skjerming": null
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Saksmappe--974761467--346--2026",
+      "title": "Nettsiden Sporten.com - Klage på cookie- og samtykkeløsning",
+      "saksnummer": "2026/346",
+      "type": [
+        "Saksmappe"
+      ],
+      "journalposttype": null,
+      "publisertDato": "2026-04-24T11:27:04.791308Z",
+      "oppdatertDato": "2026-04-24T11:27:04.791308Z",
+      "journaldato": null,
+      "skjerming": null
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Saksmappe--974761467--6527--2025",
+      "title": "Melding om avvik - BERG-HANSEN REISEBUREAU AS",
+      "saksnummer": "2025/6527",
+      "type": [
+        "Saksmappe"
+      ],
+      "journalposttype": null,
+      "publisertDato": "2026-03-25T13:07:54.146677Z",
+      "oppdatertDato": "2026-03-25T13:07:54.146677Z",
+      "journaldato": null,
+      "skjerming": null
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Saksmappe--974761467--6660--2025",
+      "title": "Melding om avvik - ARBEIDS- OG VELFERDSDIREKTORATET AVD FYRSTIKKALLÉEN",
+      "saksnummer": "2025/6660",
+      "type": [
+        "Saksmappe"
+      ],
+      "journalposttype": null,
+      "publisertDato": "2026-03-26T11:53:25.557598Z",
+      "oppdatertDato": "2026-03-26T11:53:25.557598Z",
+      "journaldato": null,
+      "skjerming": null
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Saksmappe--974761467--6630--2025",
+      "title": "Havforskningsinstituttet - Klage på utlevering av personopplysninger uten samtykke i forbindelse med registrering av hummerfiskere",
+      "saksnummer": "2025/6630",
+      "type": [
+        "Saksmappe"
+      ],
+      "journalposttype": null,
+      "publisertDato": "2026-03-26T11:49:01.190189Z",
+      "oppdatertDato": "2026-03-26T11:49:01.190189Z",
+      "journaldato": null,
+      "skjerming": null
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Saksmappe--974761467--6459--2025",
+      "title": "Nordea - Klage på behandling av personopplysninger - datalekkasje",
+      "saksnummer": "2025/6459",
+      "type": [
+        "Saksmappe"
+      ],
+      "journalposttype": null,
+      "publisertDato": "2026-03-25T13:03:00.492400Z",
+      "oppdatertDato": "2026-03-25T13:03:00.492400Z",
+      "journaldato": null,
+      "skjerming": null
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Saksmappe--974761467--5507--2025",
+      "title": "Melding om avvik - BAGGES AS",
+      "saksnummer": "2025/5507",
+      "type": [
+        "Saksmappe"
+      ],
+      "journalposttype": null,
+      "publisertDato": "2025-12-11T14:55:45.808934Z",
+      "oppdatertDato": "2025-12-11T14:55:45.808934Z",
+      "journaldato": null,
+      "skjerming": null
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Saksmappe--974761467--6874--2025",
+      "title": "Helsedirektoratet - Klage på feil i blokkering av tilgang til resepter",
+      "saksnummer": "2025/6874",
+      "type": [
+        "Saksmappe"
+      ],
+      "journalposttype": null,
+      "publisertDato": "2026-03-26T13:35:40.600351Z",
+      "oppdatertDato": "2026-03-26T13:35:40.600351Z",
+      "journaldato": null,
+      "skjerming": null
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Saksmappe--974761467--6492--2025",
+      "title": "Bilia Norge AS - Mulig brudd på personvernregelverket",
+      "saksnummer": "2025/6492",
+      "type": [
+        "Saksmappe"
+      ],
+      "journalposttype": null,
+      "publisertDato": "2026-03-25T13:03:42.246916Z",
+      "oppdatertDato": "2026-03-25T13:03:42.246916Z",
+      "journaldato": null,
+      "skjerming": null
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Saksmappe--974761467--1027--2026",
+      "title": "Melding om avvik - ULLENSVANG KOMMUNE OMSORGSTENESTE AUST BRÅVOLLTUNET",
+      "saksnummer": "2026/1027",
+      "type": [
+        "Saksmappe"
+      ],
+      "journalposttype": null,
+      "publisertDato": "2026-04-24T12:08:40.645830Z",
+      "oppdatertDato": "2026-04-24T12:08:40.645830Z",
+      "journaldato": null,
+      "skjerming": null
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Saksmappe--974761467--1092--2026",
+      "title": "Elkjøp Nordic AS - Krav om innsyn i personopplysninger",
+      "saksnummer": "2026/1092",
+      "type": [
+        "Saksmappe"
+      ],
+      "journalposttype": null,
+      "publisertDato": "2026-04-28T12:42:25.806811Z",
+      "oppdatertDato": "2026-04-28T12:42:25.806811Z",
+      "journaldato": null,
+      "skjerming": null
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Saksmappe--974761467--2591--2024",
+      "title": "Mareka AS - Klage på innsyn i e-post etter avsluttet arbeidsforhold",
+      "saksnummer": "2024/2591",
+      "type": [
+        "Saksmappe"
+      ],
+      "journalposttype": null,
+      "publisertDato": "2024-08-09T10:48:42.075Z",
+      "oppdatertDato": "2025-12-04T16:27:54.725236Z",
+      "journaldato": null,
+      "skjerming": null
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Saksmappe--974761467--1024--2026",
+      "title": "Melding om avvik - DRAMMEN KOMMUNE",
+      "saksnummer": "2026/1024",
+      "type": [
+        "Saksmappe"
+      ],
+      "journalposttype": null,
+      "publisertDato": "2026-04-24T12:08:40.286360Z",
+      "oppdatertDato": "2026-04-24T12:08:40.286360Z",
+      "journaldato": null,
+      "skjerming": null
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Saksmappe--974761467--1023--2026",
+      "title": "Melding om avvik - STAVANGER KOMMUNE OPPVEKST OG UTDANNING FORVALTNING",
+      "saksnummer": "2026/1023",
+      "type": [
+        "Saksmappe"
+      ],
+      "journalposttype": null,
+      "publisertDato": "2026-04-24T12:08:39.644938Z",
+      "oppdatertDato": "2026-04-24T12:08:39.644938Z",
+      "journaldato": null,
+      "skjerming": null
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Saksmappe--974761467--1123--2025",
+      "title": "Klage på kameraovervåking på arbeidsplassen - Avskjermet",
+      "saksnummer": "2025/1123",
+      "type": [
+        "Saksmappe"
+      ],
+      "journalposttype": null,
+      "publisertDato": "2025-05-15T09:06:28.975639Z",
+      "oppdatertDato": "2025-05-15T09:06:28.975639Z",
+      "journaldato": null,
+      "skjerming": null
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Saksmappe--974761467--551--2026",
+      "title": "Sigdal kommune - tilsyn 2026",
+      "saksnummer": "2026/551",
+      "type": [
+        "Saksmappe"
+      ],
+      "journalposttype": null,
+      "publisertDato": "2026-04-24T10:36:52.837690Z",
+      "oppdatertDato": "2026-04-24T10:36:52.837690Z",
+      "journaldato": null,
+      "skjerming": null
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Saksmappe--974761467--773--2024",
+      "title": "Elkjøp Norge AS - Klage på bruk av personopplysninger i reklamasjonssak",
+      "saksnummer": "2024/773",
+      "type": [
+        "Saksmappe"
+      ],
+      "journalposttype": null,
+      "publisertDato": "2024-03-15T11:58:10.971Z",
+      "oppdatertDato": "2026-04-28T12:49:48.443870Z",
+      "journaldato": null,
+      "skjerming": null
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Saksmappe--974761467--5900--2025",
+      "title": "Melding om avvik - SB1 MARKETS AS",
+      "saksnummer": "2025/5900",
+      "type": [
+        "Saksmappe"
+      ],
+      "journalposttype": null,
+      "publisertDato": "2026-03-18T15:40:18.832220Z",
+      "oppdatertDato": "2026-03-18T15:40:18.832220Z",
+      "journaldato": null,
+      "skjerming": null
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Saksmappe--974761467--5695--2025",
+      "title": "NAV - Krav om innsyn i personopplysninger mm",
+      "saksnummer": "2025/5695",
+      "type": [
+        "Saksmappe"
+      ],
+      "journalposttype": null,
+      "publisertDato": "2026-02-06T11:26:54.591891Z",
+      "oppdatertDato": "2026-02-06T11:26:54.591891Z",
+      "journaldato": null,
+      "skjerming": null
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Saksmappe--974761467--1093--2026",
+      "title": "Fremtind Forsikring AS - Klage på behandling av personopplysninger",
+      "saksnummer": "2026/1093",
+      "type": [
+        "Saksmappe"
+      ],
+      "journalposttype": null,
+      "publisertDato": "2026-04-24T12:08:49.084275Z",
+      "oppdatertDato": "2026-04-24T12:08:49.084275Z",
+      "journaldato": null,
+      "skjerming": null
+    },
+    {
+      "id": "http://data.einnsyn.no/noark4/Saksmappe--974761467--918--2025",
+      "title": "Klage på arbeidsgivers behandling av personopplysninger - Elektronisk kjørebok - Avskjermet",
+      "saksnummer": "2025/918",
+      "type": [
+        "Saksmappe"
+      ],
+      "journalposttype": null,
+      "publisertDato": "2025-04-25T13:01:28.429485Z",
+      "oppdatertDato": "2025-04-25T13:01:28.429485Z",
+      "journaldato": null,
+      "skjerming": null
+    }
+  ]
+}

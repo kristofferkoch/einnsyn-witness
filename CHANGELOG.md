@@ -3764,3 +3764,69 @@ _...and 40 more._
 - **Limits:** no change found means none in what it watched. `lastSeen` bounds disappearance to the capture cadence (daily), not below it — removed-and-restored inside one interval leaves no trace in the union
 - **hitCount:** 203828 — monotone ok (≥ max seen)
 
+
+## 2026-11-06
+
+**Target:** Datatilsynet  
+**Total hits (agency):** 204414  
+**Snapshot size:** 50  
+**id-set-hash:** `0648eeb2492f57d69daea608a9489b5fc1a7a52c936d91e88cb8c8ab92e89294`  
+**content-hash:** `cec616ba437f892adc073ca03c59e7a4bfa4c39f81e38c47ba05baf745de58f2`
+
+### Diff from previous snapshot (2026-11-05)
+
+- **Added:** 50 post(s)
+- **Removed:** 50 post(s)
+- **Changed:** 0 post(s)
+
+#### Removed (⚠️ potential silent removals)
+
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2022--3593--4--2023` — Klage på utlevering av personopplysninger [2022/3593]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2023--1234--4--2023` — Sparebanken Møre Ålesund - Klage på manglende innsyn i logg over bankansattes oppslag på konto [2023/1234]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2023--1248--2--2023` — Helse- og omsorgsdepartementet - Høring - Forslag om forlengelse av forskrift 23. juni 2020 nr. 1287 om endringer i forskrift 20. juni 2003 nr. 740 om Meldingssystemet for smittsomme sykdommer (MSIS-forskriften) [2023/1248]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2023--1256--1--2023` — Melding om avvik - POLITIDIREKTORATET [2023/1256]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2023--1272--1--2023` — Bardu kommune - Brevkontroll [2023/1272]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2023--1274--3--2023` — Nittedal kommune - Brevkontroll og stedlig tilsyn 16. oktober 2023 [2023/1274]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2023--1271--10--2024` — Namsos kommune - Brevkontroll og stedlig tilsyn 23. oktober 2023 [2023/1271]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2022--4193--3--2022` — Klage på privat kameraovervåking i nabolag [2022/4193]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2022--4203--1--2022` — Melding om avvik - DNB BANK ASA [2022/4203]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2022--4171--4--2022` — Politiets Sikkerhetstjeneste m fl - Klage på behandling av personopplysninger [2022/4171]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2022--4173--1--2022` — Melding om avvik - OSLO KOMMUNE KULTURETATEN [2022/4173]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2022--4142--2--2022` — Melding om avvik - KLARE INKASSO AS [2022/4142]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2022--4152--1--2022` — Melding om avvik - SKIEN KOMMUNE ORGANISASJON OG UTVIKLING [2022/4152]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2022--4146--2--2022` — Melding om avvik - OSLO KOMMUNE PLAN- OG BYGNINGSETATEN [2022/4146]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2022--4164--2--2022` — Melding om avvik - UNIVERSITETSSYKEHUSET NORD-NORGE HF [2022/4164]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2022--4143--2--2022` — Melding om avvik - SPAREBANK 1 SMN [2022/4143]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2022--4168--1--2022` — Melding om avvik - FINNMARKSSYKEHUSET HF [2022/4168]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2022--4133--2--2022` — Krav om innsyn i personopplysninger i SIS [2022/4133]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2022--4139--1--2022` — Melding om avvik - AKERSHUS UNIVERSITETSSYKEHUS HF [2022/4139]
+- `http://data.einnsyn.no/noark4/Journalpost--974761467--2022--4171--8--2022` — Politiets Sikkerhetstjeneste m fl - Klage på behandling av personopplysninger [2022/4171]
+
+_...and 30 more._
+
+#### Added (new posts — normal)
+
+- `http://data.einnsyn.no/noark4/Saksmappe--974761467--170--2026` — Finanstilsynet - Arbeidsgruppe om utredning av finansforetaks taushetsplikt for forskningsformål [2026/170]
+- `http://data.einnsyn.no/noark4/Saksmappe--974761467--879--2026` — Talkmore - Krav om innsyn i personopplysninger mm [2026/879]
+- `http://data.einnsyn.no/noark4/Saksmappe--974761467--586--2026` — Sør-Fron kommune - tilsyn 2026 [2026/586]
+- `http://data.einnsyn.no/noark4/Saksmappe--974761467--909--2026` — Melding om avvik - BUSKERUD FYLKESKOMMUNE [2026/909]
+- `http://data.einnsyn.no/noark4/Saksmappe--974761467--6040--2025` — Arendal kommune - Klage på utlevering av personopplysninger uten samtykke mm [2025/6040]
+- `http://data.einnsyn.no/noark4/Saksmappe--974761467--6827--2025` — Lesja kommune - Veiledningsmøte - Behandlingsansvarlig og databehandler i interkommunalt samarbeid [2025/6827]
+- `http://data.einnsyn.no/noark4/Saksmappe--974761467--796--2026` — Melding om avvik - LØRENSKOG BARNEVERNTJENESTE [2026/796]
+- `http://data.einnsyn.no/noark4/Saksmappe--974761467--6249--2025` — Statkraft AS - Klage på behandling av personopplysninger om arbeidstaker - Innsyn i SMS-kommunikasjon [2025/6249]
+- `http://data.einnsyn.no/noark4/Saksmappe--974761467--140--2026` — Fair Collection AS - Klage på utsendelse av personopplysninger til feil person [2026/140]
+- `http://data.einnsyn.no/noark4/Saksmappe--974761467--832--2026` — Melding om avvik - RIDDERSAND SKOLE [2026/832]
+
+_...and 40 more._
+
+### Cumulative coverage (run 2026-11-06T13:23:26.511Z)
+
+- **Union:** 197 known id(s) — carried in state
+- **New this run:** 43
+- **Returned:** 7 (http://data.einnsyn.no/noark4/Saksmappe--974761467--170--2026, http://data.einnsyn.no/noark4/Saksmappe--974761467--586--2026, http://data.einnsyn.no/noark4/Saksmappe--974761467--6040--2025, http://data.einnsyn.no/noark4/Saksmappe--974761467--6827--2025, http://data.einnsyn.no/noark4/Saksmappe--974761467--796--2026, http://data.einnsyn.no/noark4/Saksmappe--974761467--879--2026, http://data.einnsyn.no/noark4/Saksmappe--974761467--909--2026)
+- **Exits from window:** 50 — 50 rotated (new posts pushed them out), 0 unclassified-exit (nothing new arrived)
+- **Suspects standing:** 0 — suspect classification SUSPENDED (window oscillation observed: a known id returned after absence, so the window is not a stable head; exits stay recorded, hitCount remains the global check)
+- **Union root:** `d7015991c5582e165b8a7ac200ce19779754b6459ac9ba530cc2a17d53dc0401` — sha256 over sorted `id|firstSeen|lastSeen` lines of the union; replaying snapshots/ must reproduce it (witness.mjs --verify-union)
+- **Limits:** no change found means none in what it watched. `lastSeen` bounds disappearance to the capture cadence (daily), not below it — removed-and-restored inside one interval leaves no trace in the union
+- **hitCount:** 204414 — monotone ok (≥ max seen)
+
