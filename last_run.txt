@@ -1,8 +1,8 @@
-ok 2026-11-16T14:11:42.381Z
+ok 2026-11-17T15:03:40.695Z
 target: Datatilsynet
 hitCount: 206535
 snapshotSize: 50
 id-set-hash: 0648eeb2492f57d69daea608a9489b5fc1a7a52c936d91e88cb8c8ab92e89294
 content-hash: cec616ba437f892adc073ca03c59e7a4bfa4c39f81e38c47ba05baf745de58f2
-union-root: 44eaae1711eb38936b211f929f04a0610c811d4c43b3bb032d9b3341de64342d
+union-root: e70c635f3b174478d0d7b4a7102798f86780b04566016280f81712215481dc7a
 diff: +0 added, -0 removed, ~0 changed
