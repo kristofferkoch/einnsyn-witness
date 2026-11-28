@@ -4397,3 +4397,30 @@ _No removals or edits detected. Only normal additions._
 - **Limits:** no change found means none in what it watched. `lastSeen` bounds disappearance to the capture cadence (daily), not below it — removed-and-restored inside one interval leaves no trace in the union
 - **hitCount:** 206535 — DROP ⚠️ [{"from":206536,"to":206535,"date":"2026-11-15"}]
 
+
+## 2026-11-28
+
+**Target:** Datatilsynet  
+**Total hits (agency):** 206535  
+**Snapshot size:** 50  
+**id-set-hash:** `0648eeb2492f57d69daea608a9489b5fc1a7a52c936d91e88cb8c8ab92e89294`  
+**content-hash:** `cec616ba437f892adc073ca03c59e7a4bfa4c39f81e38c47ba05baf745de58f2`
+
+### Diff from previous snapshot (2026-11-27)
+
+- **Added:** 0 post(s)
+- **Removed:** 0 post(s)
+- **Changed:** 0 post(s)
+
+_No removals or edits detected. Only normal additions._
+### Cumulative coverage (run 2026-11-28T14:41:16.692Z)
+
+- **Union:** 197 known id(s) — carried in state
+- **New this run:** 0
+- **Returned:** 0
+- **Exits from window:** 0 — 0 rotated (new posts pushed them out), 0 unclassified-exit (nothing new arrived)
+- **Suspects standing:** 0 — suspect classification SUSPENDED (window oscillation observed: a known id returned after absence, so the window is not a stable head; exits stay recorded, hitCount remains the global check)
+- **Union root:** `af19cc65fd76a085704ab494f2aafc1849478dd92d067be3e82f63b2c1a32d68` — sha256 over sorted `id|firstSeen|lastSeen` lines of the union; replaying snapshots/ must reproduce it (witness.mjs --verify-union)
+- **Limits:** no change found means none in what it watched. `lastSeen` bounds disappearance to the capture cadence (daily), not below it — removed-and-restored inside one interval leaves no trace in the union
+- **hitCount:** 206535 — DROP ⚠️ [{"from":206536,"to":206535,"date":"2026-11-15"}]
+
